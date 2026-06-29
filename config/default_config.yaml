@@ -1,0 +1,47 @@
+# Configuration files for Black Swan Scenario System
+
+# Default configuration can be placed here as YAML or JSON files
+# Example: default_config.yaml
+
+system:
+  name: "Black Swan Scenario Analysis"
+  version: "1.0.0"
+
+scenario_generation:
+  default_num_scenarios: 100
+  batch_size: 10
+  refine_iterations: 1
+  llm_provider: "mock"  # openai, huggingface, mock
+  
+nlp_translation:
+  use_ml_enhancement: false
+  uncertainty_factor: 0.1
+
+mcdm_evaluation:
+  method: "pythagorean_topsis"  # pythagorean_topsis, q_rung_vikor
+  q_parameter: 3  # for q-ROF VIKOR
+  v_parameter: 0.5  # for VIKOR compromise ranking
+  
+strategies:
+  - "Multi-sourcing"
+  - "Safety Stock Holding"
+  - "Nearshoring"
+  - "Supplier Diversification"
+  - "Vertical Integration"
+  - "Digital Twin Implementation"
+  - "Agile Manufacturing"
+  - "Strategic Partnerships"
+
+criteria:
+  weights:
+    cost_efficiency: 0.20
+    response_time: 0.20
+    flexibility: 0.15
+    risk_mitigation: 0.25
+    implementation_complexity: 0.10
+    scalability: 0.10
+
+output:
+  directory: "data/output"
+  format: ["json", "csv"]
+  generate_report: true

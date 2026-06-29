@@ -1,0 +1,1088 @@
+[
+  {
+    "id": "mock_scenario_0000",
+    "title": "Infrastructure Failure at Taiwan Semiconductor Facilities with cascading effects",
+    "description": "A infrastructure failure affects Taiwan Semiconductor Facilities, causing disruptions to Port of Rotterdam, Australian Mining Region. This is compounded by Geopolitical Sanction.",
+    "affected_nodes": [
+      "Taiwan Semiconductor Facilities",
+      "Port of Rotterdam",
+      "Australian Mining Region"
+    ],
+    "disruption_types": [
+      "Infrastructure Failure",
+      "Geopolitical Sanction"
+    ],
+    "estimated_duration_days": 74,
+    "severity": "Low",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0001",
+    "title": "Geopolitical Sanction at Strait of Hormuz with cascading effects",
+    "description": "A geopolitical sanction affects Strait of Hormuz, causing disruptions to Taiwan Semiconductor Facilities. This is compounded by Terrorist Attack.",
+    "affected_nodes": [
+      "Strait of Hormuz",
+      "Taiwan Semiconductor Facilities"
+    ],
+    "disruption_types": [
+      "Geopolitical Sanction",
+      "Terrorist Attack"
+    ],
+    "estimated_duration_days": 32,
+    "severity": "Extreme",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0002",
+    "title": "Terrorist Attack at Australian Mining Region with cascading effects",
+    "description": "A terrorist attack affects Australian Mining Region, causing disruptions to Panama Canal, Port of Rotterdam, German Automotive Region. This is compounded by Resource Shortage.",
+    "affected_nodes": [
+      "Australian Mining Region",
+      "Panama Canal",
+      "Port of Rotterdam",
+      "German Automotive Region"
+    ],
+    "disruption_types": [
+      "Terrorist Attack",
+      "Resource Shortage",
+      "Cyberattack"
+    ],
+    "estimated_duration_days": 54,
+    "severity": "Low",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0003",
+    "title": "Infrastructure Failure at Port of Shanghai with cascading effects",
+    "description": "A infrastructure failure affects Port of Shanghai, causing disruptions to Shenzhen Manufacturing Hub, Suez Canal, Strait of Hormuz. This is compounded by Labor Strike.",
+    "affected_nodes": [
+      "Port of Shanghai",
+      "Shenzhen Manufacturing Hub",
+      "Suez Canal",
+      "Strait of Hormuz"
+    ],
+    "disruption_types": [
+      "Infrastructure Failure",
+      "Labor Strike",
+      "Satellite Network Failure"
+    ],
+    "estimated_duration_days": 21,
+    "severity": "Extreme",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0004",
+    "title": "AI System Malfunction at Taiwan Semiconductor Facilities with cascading effects",
+    "description": "A ai system malfunction affects Taiwan Semiconductor Facilities, causing disruptions to Port of Shanghai, Panama Canal. This is compounded by Pandemic Outbreak.",
+    "affected_nodes": [
+      "Taiwan Semiconductor Facilities",
+      "Port of Shanghai",
+      "Panama Canal"
+    ],
+    "disruption_types": [
+      "AI System Malfunction",
+      "Pandemic Outbreak"
+    ],
+    "estimated_duration_days": 42,
+    "severity": "Medium",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0005",
+    "title": "Terrorist Attack at Taiwan Semiconductor Facilities with cascading effects",
+    "description": "A terrorist attack affects Taiwan Semiconductor Facilities, causing disruptions to Shenzhen Manufacturing Hub. This is compounded by Pandemic Outbreak.",
+    "affected_nodes": [
+      "Taiwan Semiconductor Facilities",
+      "Shenzhen Manufacturing Hub"
+    ],
+    "disruption_types": [
+      "Terrorist Attack",
+      "Pandemic Outbreak",
+      "Financial Collapse"
+    ],
+    "estimated_duration_days": 65,
+    "severity": "High",
+    "root_causes": [
+      "Root cause 0"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0006",
+    "title": "Terrorist Attack at German Automotive Region with cascading effects",
+    "description": "A terrorist attack affects German Automotive Region, causing disruptions to Suez Canal, Port of Los Angeles. This is compounded by Pandemic Outbreak.",
+    "affected_nodes": [
+      "German Automotive Region",
+      "Suez Canal",
+      "Port of Los Angeles"
+    ],
+    "disruption_types": [
+      "Terrorist Attack",
+      "Pandemic Outbreak",
+      "Resource Shortage"
+    ],
+    "estimated_duration_days": 23,
+    "severity": "Extreme",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0007",
+    "title": "AI System Malfunction at Port of Los Angeles with cascading effects",
+    "description": "A ai system malfunction affects Port of Los Angeles, causing disruptions to Shenzhen Manufacturing Hub, Australian Mining Region, Suez Canal. This is compounded by Satellite Network Failure.",
+    "affected_nodes": [
+      "Port of Los Angeles",
+      "Shenzhen Manufacturing Hub",
+      "Australian Mining Region",
+      "Suez Canal"
+    ],
+    "disruption_types": [
+      "AI System Malfunction",
+      "Satellite Network Failure",
+      "Infrastructure Failure"
+    ],
+    "estimated_duration_days": 179,
+    "severity": "Low",
+    "root_causes": [
+      "Root cause 0"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0008",
+    "title": "Infrastructure Failure at Australian Mining Region with cascading effects",
+    "description": "A infrastructure failure affects Australian Mining Region, causing disruptions to Shenzhen Manufacturing Hub, Suez Canal, German Automotive Region. This is compounded by Cyberattack.",
+    "affected_nodes": [
+      "Australian Mining Region",
+      "Shenzhen Manufacturing Hub",
+      "Suez Canal",
+      "German Automotive Region"
+    ],
+    "disruption_types": [
+      "Infrastructure Failure",
+      "Cyberattack",
+      "Geopolitical Sanction"
+    ],
+    "estimated_duration_days": 128,
+    "severity": "Extreme",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0009",
+    "title": "Terrorist Attack at Suez Canal with cascading effects",
+    "description": "A terrorist attack affects Suez Canal, causing disruptions to Port of Rotterdam. This is compounded by Labor Strike.",
+    "affected_nodes": [
+      "Suez Canal",
+      "Port of Rotterdam"
+    ],
+    "disruption_types": [
+      "Terrorist Attack",
+      "Labor Strike",
+      "Satellite Network Failure"
+    ],
+    "estimated_duration_days": 9,
+    "severity": "High",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0000",
+    "title": "Financial Collapse at Strait of Hormuz with cascading effects",
+    "description": "A financial collapse affects Strait of Hormuz, causing disruptions to Australian Mining Region, Taiwan Semiconductor Facilities. This is compounded by Pandemic Outbreak.",
+    "affected_nodes": [
+      "Strait of Hormuz",
+      "Australian Mining Region",
+      "Taiwan Semiconductor Facilities"
+    ],
+    "disruption_types": [
+      "Financial Collapse",
+      "Pandemic Outbreak"
+    ],
+    "estimated_duration_days": 134,
+    "severity": "Low",
+    "root_causes": [
+      "Root cause 0"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0001",
+    "title": "Geopolitical Sanction at Panama Canal with cascading effects",
+    "description": "A geopolitical sanction affects Panama Canal, causing disruptions to Port of Shanghai, German Automotive Region, Shenzhen Manufacturing Hub. This is compounded by Satellite Network Failure.",
+    "affected_nodes": [
+      "Panama Canal",
+      "Port of Shanghai",
+      "German Automotive Region",
+      "Shenzhen Manufacturing Hub"
+    ],
+    "disruption_types": [
+      "Geopolitical Sanction",
+      "Satellite Network Failure",
+      "Cyberattack"
+    ],
+    "estimated_duration_days": 9,
+    "severity": "Low",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0002",
+    "title": "Extreme Weather at Port of Los Angeles with cascading effects",
+    "description": "A extreme weather affects Port of Los Angeles, causing disruptions to Port of Shanghai. This is compounded by AI System Malfunction.",
+    "affected_nodes": [
+      "Port of Los Angeles",
+      "Port of Shanghai"
+    ],
+    "disruption_types": [
+      "Extreme Weather",
+      "AI System Malfunction"
+    ],
+    "estimated_duration_days": 49,
+    "severity": "High",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0003",
+    "title": "Geopolitical Sanction at Shenzhen Manufacturing Hub with cascading effects",
+    "description": "A geopolitical sanction affects Shenzhen Manufacturing Hub, causing disruptions to Port of Shanghai, Port of Rotterdam, Strait of Hormuz. This is compounded by Infrastructure Failure.",
+    "affected_nodes": [
+      "Shenzhen Manufacturing Hub",
+      "Port of Shanghai",
+      "Port of Rotterdam",
+      "Strait of Hormuz"
+    ],
+    "disruption_types": [
+      "Geopolitical Sanction",
+      "Infrastructure Failure"
+    ],
+    "estimated_duration_days": 13,
+    "severity": "Extreme",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0004",
+    "title": "AI System Malfunction at German Automotive Region with cascading effects",
+    "description": "A ai system malfunction affects German Automotive Region, causing disruptions to Shenzhen Manufacturing Hub, Port of Shanghai. This is compounded by Satellite Network Failure.",
+    "affected_nodes": [
+      "German Automotive Region",
+      "Shenzhen Manufacturing Hub",
+      "Port of Shanghai"
+    ],
+    "disruption_types": [
+      "AI System Malfunction",
+      "Satellite Network Failure",
+      "Geopolitical Sanction"
+    ],
+    "estimated_duration_days": 158,
+    "severity": "Extreme",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0005",
+    "title": "Resource Shortage at Suez Canal with cascading effects",
+    "description": "A resource shortage affects Suez Canal, causing disruptions to Port of Rotterdam. This is compounded by Cyberattack.",
+    "affected_nodes": [
+      "Suez Canal",
+      "Port of Rotterdam"
+    ],
+    "disruption_types": [
+      "Resource Shortage",
+      "Cyberattack"
+    ],
+    "estimated_duration_days": 130,
+    "severity": "Extreme",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0006",
+    "title": "AI System Malfunction at Port of Rotterdam with cascading effects",
+    "description": "A ai system malfunction affects Port of Rotterdam, causing disruptions to Taiwan Semiconductor Facilities, Australian Mining Region. This is compounded by Terrorist Attack.",
+    "affected_nodes": [
+      "Port of Rotterdam",
+      "Taiwan Semiconductor Facilities",
+      "Australian Mining Region"
+    ],
+    "disruption_types": [
+      "AI System Malfunction",
+      "Terrorist Attack"
+    ],
+    "estimated_duration_days": 62,
+    "severity": "High",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0007",
+    "title": "AI System Malfunction at German Automotive Region with cascading effects",
+    "description": "A ai system malfunction affects German Automotive Region, causing disruptions to Taiwan Semiconductor Facilities, Shenzhen Manufacturing Hub, Port of Shanghai. This is compounded by Infrastructure Failure.",
+    "affected_nodes": [
+      "German Automotive Region",
+      "Taiwan Semiconductor Facilities",
+      "Shenzhen Manufacturing Hub",
+      "Port of Shanghai"
+    ],
+    "disruption_types": [
+      "AI System Malfunction",
+      "Infrastructure Failure"
+    ],
+    "estimated_duration_days": 85,
+    "severity": "Low",
+    "root_causes": [
+      "Root cause 0"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0008",
+    "title": "Resource Shortage at Australian Mining Region with cascading effects",
+    "description": "A resource shortage affects Australian Mining Region, causing disruptions to Shenzhen Manufacturing Hub, Panama Canal. This is compounded by Satellite Network Failure.",
+    "affected_nodes": [
+      "Australian Mining Region",
+      "Shenzhen Manufacturing Hub",
+      "Panama Canal"
+    ],
+    "disruption_types": [
+      "Resource Shortage",
+      "Satellite Network Failure"
+    ],
+    "estimated_duration_days": 126,
+    "severity": "Low",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0009",
+    "title": "Cyberattack at Port of Los Angeles with cascading effects",
+    "description": "A cyberattack affects Port of Los Angeles, causing disruptions to Port of Rotterdam, Taiwan Semiconductor Facilities. This is compounded by Infrastructure Failure.",
+    "affected_nodes": [
+      "Port of Los Angeles",
+      "Port of Rotterdam",
+      "Taiwan Semiconductor Facilities"
+    ],
+    "disruption_types": [
+      "Cyberattack",
+      "Infrastructure Failure"
+    ],
+    "estimated_duration_days": 99,
+    "severity": "High",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0000",
+    "title": "AI System Malfunction at Port of Rotterdam with cascading effects",
+    "description": "A ai system malfunction affects Port of Rotterdam, causing disruptions to Port of Los Angeles. This is compounded by Labor Strike.",
+    "affected_nodes": [
+      "Port of Rotterdam",
+      "Port of Los Angeles"
+    ],
+    "disruption_types": [
+      "AI System Malfunction",
+      "Labor Strike"
+    ],
+    "estimated_duration_days": 176,
+    "severity": "Low",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0001",
+    "title": "Satellite Network Failure at Port of Los Angeles with cascading effects",
+    "description": "A satellite network failure affects Port of Los Angeles, causing disruptions to German Automotive Region. This is compounded by Extreme Weather.",
+    "affected_nodes": [
+      "Port of Los Angeles",
+      "German Automotive Region"
+    ],
+    "disruption_types": [
+      "Satellite Network Failure",
+      "Extreme Weather",
+      "AI System Malfunction"
+    ],
+    "estimated_duration_days": 137,
+    "severity": "Medium",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0002",
+    "title": "AI System Malfunction at Australian Mining Region with cascading effects",
+    "description": "A ai system malfunction affects Australian Mining Region, causing disruptions to Port of Shanghai. This is compounded by Satellite Network Failure.",
+    "affected_nodes": [
+      "Australian Mining Region",
+      "Port of Shanghai"
+    ],
+    "disruption_types": [
+      "AI System Malfunction",
+      "Satellite Network Failure"
+    ],
+    "estimated_duration_days": 98,
+    "severity": "Medium",
+    "root_causes": [
+      "Root cause 0"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0003",
+    "title": "Geopolitical Sanction at Shenzhen Manufacturing Hub with cascading effects",
+    "description": "A geopolitical sanction affects Shenzhen Manufacturing Hub, causing disruptions to Strait of Hormuz, Suez Canal, Panama Canal. This is compounded by Cyberattack.",
+    "affected_nodes": [
+      "Shenzhen Manufacturing Hub",
+      "Strait of Hormuz",
+      "Suez Canal",
+      "Panama Canal"
+    ],
+    "disruption_types": [
+      "Geopolitical Sanction",
+      "Cyberattack",
+      "Pandemic Outbreak"
+    ],
+    "estimated_duration_days": 23,
+    "severity": "Medium",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0004",
+    "title": "Geopolitical Sanction at Australian Mining Region with cascading effects",
+    "description": "A geopolitical sanction affects Australian Mining Region, causing disruptions to Panama Canal, Port of Shanghai. This is compounded by Labor Strike.",
+    "affected_nodes": [
+      "Australian Mining Region",
+      "Panama Canal",
+      "Port of Shanghai"
+    ],
+    "disruption_types": [
+      "Geopolitical Sanction",
+      "Labor Strike"
+    ],
+    "estimated_duration_days": 130,
+    "severity": "Medium",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0005",
+    "title": "AI System Malfunction at Port of Los Angeles with cascading effects",
+    "description": "A ai system malfunction affects Port of Los Angeles, causing disruptions to German Automotive Region, Strait of Hormuz, Shenzhen Manufacturing Hub. This is compounded by Labor Strike.",
+    "affected_nodes": [
+      "Port of Los Angeles",
+      "German Automotive Region",
+      "Strait of Hormuz",
+      "Shenzhen Manufacturing Hub"
+    ],
+    "disruption_types": [
+      "AI System Malfunction",
+      "Labor Strike",
+      "Infrastructure Failure"
+    ],
+    "estimated_duration_days": 178,
+    "severity": "Extreme",
+    "root_causes": [
+      "Root cause 0"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0006",
+    "title": "Resource Shortage at Strait of Hormuz with cascading effects",
+    "description": "A resource shortage affects Strait of Hormuz, causing disruptions to Taiwan Semiconductor Facilities. This is compounded by Satellite Network Failure.",
+    "affected_nodes": [
+      "Strait of Hormuz",
+      "Taiwan Semiconductor Facilities"
+    ],
+    "disruption_types": [
+      "Resource Shortage",
+      "Satellite Network Failure"
+    ],
+    "estimated_duration_days": 82,
+    "severity": "Medium",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0007",
+    "title": "Satellite Network Failure at Strait of Hormuz with cascading effects",
+    "description": "A satellite network failure affects Strait of Hormuz, causing disruptions to Port of Rotterdam. This is compounded by Pandemic Outbreak.",
+    "affected_nodes": [
+      "Strait of Hormuz",
+      "Port of Rotterdam"
+    ],
+    "disruption_types": [
+      "Satellite Network Failure",
+      "Pandemic Outbreak",
+      "AI System Malfunction"
+    ],
+    "estimated_duration_days": 104,
+    "severity": "Extreme",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0008",
+    "title": "Labor Strike at Strait of Hormuz with cascading effects",
+    "description": "A labor strike affects Strait of Hormuz, causing disruptions to Australian Mining Region. This is compounded by Resource Shortage.",
+    "affected_nodes": [
+      "Strait of Hormuz",
+      "Australian Mining Region"
+    ],
+    "disruption_types": [
+      "Labor Strike",
+      "Resource Shortage",
+      "Extreme Weather"
+    ],
+    "estimated_duration_days": 34,
+    "severity": "High",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0009",
+    "title": "Geopolitical Sanction at Strait of Hormuz with cascading effects",
+    "description": "A geopolitical sanction affects Strait of Hormuz, causing disruptions to Australian Mining Region, Taiwan Semiconductor Facilities. This is compounded by Pandemic Outbreak.",
+    "affected_nodes": [
+      "Strait of Hormuz",
+      "Australian Mining Region",
+      "Taiwan Semiconductor Facilities"
+    ],
+    "disruption_types": [
+      "Geopolitical Sanction",
+      "Pandemic Outbreak"
+    ],
+    "estimated_duration_days": 147,
+    "severity": "Low",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0000",
+    "title": "Infrastructure Failure at Panama Canal with cascading effects",
+    "description": "A infrastructure failure affects Panama Canal, causing disruptions to Shenzhen Manufacturing Hub. This is compounded by Satellite Network Failure.",
+    "affected_nodes": [
+      "Panama Canal",
+      "Shenzhen Manufacturing Hub"
+    ],
+    "disruption_types": [
+      "Infrastructure Failure",
+      "Satellite Network Failure"
+    ],
+    "estimated_duration_days": 93,
+    "severity": "Extreme",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0001",
+    "title": "Financial Collapse at Port of Shanghai with cascading effects",
+    "description": "A financial collapse affects Port of Shanghai, causing disruptions to Australian Mining Region, Port of Rotterdam. This is compounded by Geopolitical Sanction.",
+    "affected_nodes": [
+      "Port of Shanghai",
+      "Australian Mining Region",
+      "Port of Rotterdam"
+    ],
+    "disruption_types": [
+      "Financial Collapse",
+      "Geopolitical Sanction"
+    ],
+    "estimated_duration_days": 40,
+    "severity": "Medium",
+    "root_causes": [
+      "Root cause 0"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0002",
+    "title": "Resource Shortage at German Automotive Region with cascading effects",
+    "description": "A resource shortage affects German Automotive Region, causing disruptions to Suez Canal, Shenzhen Manufacturing Hub. This is compounded by Extreme Weather.",
+    "affected_nodes": [
+      "German Automotive Region",
+      "Suez Canal",
+      "Shenzhen Manufacturing Hub"
+    ],
+    "disruption_types": [
+      "Resource Shortage",
+      "Extreme Weather",
+      "Terrorist Attack"
+    ],
+    "estimated_duration_days": 70,
+    "severity": "Extreme",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0003",
+    "title": "Labor Strike at Panama Canal with cascading effects",
+    "description": "A labor strike affects Panama Canal, causing disruptions to Strait of Hormuz, Shenzhen Manufacturing Hub. This is compounded by Infrastructure Failure.",
+    "affected_nodes": [
+      "Panama Canal",
+      "Strait of Hormuz",
+      "Shenzhen Manufacturing Hub"
+    ],
+    "disruption_types": [
+      "Labor Strike",
+      "Infrastructure Failure",
+      "Pandemic Outbreak"
+    ],
+    "estimated_duration_days": 9,
+    "severity": "Medium",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0004",
+    "title": "Geopolitical Sanction at Taiwan Semiconductor Facilities with cascading effects",
+    "description": "A geopolitical sanction affects Taiwan Semiconductor Facilities, causing disruptions to Strait of Hormuz, Panama Canal. This is compounded by Pandemic Outbreak.",
+    "affected_nodes": [
+      "Taiwan Semiconductor Facilities",
+      "Strait of Hormuz",
+      "Panama Canal"
+    ],
+    "disruption_types": [
+      "Geopolitical Sanction",
+      "Pandemic Outbreak"
+    ],
+    "estimated_duration_days": 59,
+    "severity": "High",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0005",
+    "title": "Labor Strike at Port of Shanghai with cascading effects",
+    "description": "A labor strike affects Port of Shanghai, causing disruptions to Panama Canal, Shenzhen Manufacturing Hub, German Automotive Region. This is compounded by Extreme Weather.",
+    "affected_nodes": [
+      "Port of Shanghai",
+      "Panama Canal",
+      "Shenzhen Manufacturing Hub",
+      "German Automotive Region"
+    ],
+    "disruption_types": [
+      "Labor Strike",
+      "Extreme Weather"
+    ],
+    "estimated_duration_days": 156,
+    "severity": "Medium",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0006",
+    "title": "Infrastructure Failure at Port of Rotterdam with cascading effects",
+    "description": "A infrastructure failure affects Port of Rotterdam, causing disruptions to Port of Shanghai. This is compounded by Cyberattack.",
+    "affected_nodes": [
+      "Port of Rotterdam",
+      "Port of Shanghai"
+    ],
+    "disruption_types": [
+      "Infrastructure Failure",
+      "Cyberattack",
+      "Terrorist Attack"
+    ],
+    "estimated_duration_days": 177,
+    "severity": "High",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0007",
+    "title": "Infrastructure Failure at Taiwan Semiconductor Facilities with cascading effects",
+    "description": "A infrastructure failure affects Taiwan Semiconductor Facilities, causing disruptions to Suez Canal, Port of Rotterdam, German Automotive Region. This is compounded by Extreme Weather.",
+    "affected_nodes": [
+      "Taiwan Semiconductor Facilities",
+      "Suez Canal",
+      "Port of Rotterdam",
+      "German Automotive Region"
+    ],
+    "disruption_types": [
+      "Infrastructure Failure",
+      "Extreme Weather"
+    ],
+    "estimated_duration_days": 90,
+    "severity": "Low",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0008",
+    "title": "Cyberattack at Port of Shanghai with cascading effects",
+    "description": "A cyberattack affects Port of Shanghai, causing disruptions to Suez Canal, Strait of Hormuz, Taiwan Semiconductor Facilities. This is compounded by Satellite Network Failure.",
+    "affected_nodes": [
+      "Port of Shanghai",
+      "Suez Canal",
+      "Strait of Hormuz",
+      "Taiwan Semiconductor Facilities"
+    ],
+    "disruption_types": [
+      "Cyberattack",
+      "Satellite Network Failure"
+    ],
+    "estimated_duration_days": 14,
+    "severity": "Low",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0009",
+    "title": "Financial Collapse at Port of Los Angeles with cascading effects",
+    "description": "A financial collapse affects Port of Los Angeles, causing disruptions to Australian Mining Region, Shenzhen Manufacturing Hub, Port of Shanghai. This is compounded by Infrastructure Failure.",
+    "affected_nodes": [
+      "Port of Los Angeles",
+      "Australian Mining Region",
+      "Shenzhen Manufacturing Hub",
+      "Port of Shanghai"
+    ],
+    "disruption_types": [
+      "Financial Collapse",
+      "Infrastructure Failure",
+      "Extreme Weather"
+    ],
+    "estimated_duration_days": 52,
+    "severity": "Extreme",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0000",
+    "title": "Terrorist Attack at Strait of Hormuz with cascading effects",
+    "description": "A terrorist attack affects Strait of Hormuz, causing disruptions to Shenzhen Manufacturing Hub, Taiwan Semiconductor Facilities, Port of Shanghai. This is compounded by AI System Malfunction.",
+    "affected_nodes": [
+      "Strait of Hormuz",
+      "Shenzhen Manufacturing Hub",
+      "Taiwan Semiconductor Facilities",
+      "Port of Shanghai"
+    ],
+    "disruption_types": [
+      "Terrorist Attack",
+      "AI System Malfunction"
+    ],
+    "estimated_duration_days": 85,
+    "severity": "High",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0001",
+    "title": "Extreme Weather at Panama Canal with cascading effects",
+    "description": "A extreme weather affects Panama Canal, causing disruptions to German Automotive Region, Strait of Hormuz, Port of Los Angeles. This is compounded by Terrorist Attack.",
+    "affected_nodes": [
+      "Panama Canal",
+      "German Automotive Region",
+      "Strait of Hormuz",
+      "Port of Los Angeles"
+    ],
+    "disruption_types": [
+      "Extreme Weather",
+      "Terrorist Attack"
+    ],
+    "estimated_duration_days": 107,
+    "severity": "High",
+    "root_causes": [
+      "Root cause 0"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0002",
+    "title": "Infrastructure Failure at Shenzhen Manufacturing Hub with cascading effects",
+    "description": "A infrastructure failure affects Shenzhen Manufacturing Hub, causing disruptions to German Automotive Region, Strait of Hormuz, Australian Mining Region. This is compounded by AI System Malfunction.",
+    "affected_nodes": [
+      "Shenzhen Manufacturing Hub",
+      "German Automotive Region",
+      "Strait of Hormuz",
+      "Australian Mining Region"
+    ],
+    "disruption_types": [
+      "Infrastructure Failure",
+      "AI System Malfunction",
+      "Resource Shortage"
+    ],
+    "estimated_duration_days": 114,
+    "severity": "High",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0003",
+    "title": "Terrorist Attack at Port of Los Angeles with cascading effects",
+    "description": "A terrorist attack affects Port of Los Angeles, causing disruptions to German Automotive Region, Australian Mining Region. This is compounded by Financial Collapse.",
+    "affected_nodes": [
+      "Port of Los Angeles",
+      "German Automotive Region",
+      "Australian Mining Region"
+    ],
+    "disruption_types": [
+      "Terrorist Attack",
+      "Financial Collapse",
+      "Infrastructure Failure"
+    ],
+    "estimated_duration_days": 84,
+    "severity": "Low",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0004",
+    "title": "Financial Collapse at Australian Mining Region with cascading effects",
+    "description": "A financial collapse affects Australian Mining Region, causing disruptions to Suez Canal, Port of Rotterdam, Strait of Hormuz. This is compounded by Geopolitical Sanction.",
+    "affected_nodes": [
+      "Australian Mining Region",
+      "Suez Canal",
+      "Port of Rotterdam",
+      "Strait of Hormuz"
+    ],
+    "disruption_types": [
+      "Financial Collapse",
+      "Geopolitical Sanction"
+    ],
+    "estimated_duration_days": 70,
+    "severity": "Extreme",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0005",
+    "title": "Resource Shortage at Shenzhen Manufacturing Hub with cascading effects",
+    "description": "A resource shortage affects Shenzhen Manufacturing Hub, causing disruptions to German Automotive Region. This is compounded by Cyberattack.",
+    "affected_nodes": [
+      "Shenzhen Manufacturing Hub",
+      "German Automotive Region"
+    ],
+    "disruption_types": [
+      "Resource Shortage",
+      "Cyberattack"
+    ],
+    "estimated_duration_days": 26,
+    "severity": "Extreme",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0006",
+    "title": "Labor Strike at Port of Rotterdam with cascading effects",
+    "description": "A labor strike affects Port of Rotterdam, causing disruptions to Port of Shanghai, Suez Canal, German Automotive Region. This is compounded by Extreme Weather.",
+    "affected_nodes": [
+      "Port of Rotterdam",
+      "Port of Shanghai",
+      "Suez Canal",
+      "German Automotive Region"
+    ],
+    "disruption_types": [
+      "Labor Strike",
+      "Extreme Weather",
+      "AI System Malfunction"
+    ],
+    "estimated_duration_days": 16,
+    "severity": "Low",
+    "root_causes": [
+      "Root cause 0"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0007",
+    "title": "Financial Collapse at Port of Shanghai with cascading effects",
+    "description": "A financial collapse affects Port of Shanghai, causing disruptions to Suez Canal, Panama Canal, German Automotive Region. This is compounded by Extreme Weather.",
+    "affected_nodes": [
+      "Port of Shanghai",
+      "Suez Canal",
+      "Panama Canal",
+      "German Automotive Region"
+    ],
+    "disruption_types": [
+      "Financial Collapse",
+      "Extreme Weather"
+    ],
+    "estimated_duration_days": 124,
+    "severity": "Low",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0008",
+    "title": "Resource Shortage at Suez Canal with cascading effects",
+    "description": "A resource shortage affects Suez Canal, causing disruptions to Port of Rotterdam. This is compounded by AI System Malfunction.",
+    "affected_nodes": [
+      "Suez Canal",
+      "Port of Rotterdam"
+    ],
+    "disruption_types": [
+      "Resource Shortage",
+      "AI System Malfunction",
+      "Geopolitical Sanction"
+    ],
+    "estimated_duration_days": 154,
+    "severity": "Medium",
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ],
+    "is_mock": true
+  },
+  {
+    "id": "mock_scenario_0009",
+    "title": "Terrorist Attack at German Automotive Region with cascading effects",
+    "description": "A terrorist attack affects German Automotive Region, causing disruptions to Port of Shanghai. This is compounded by Geopolitical Sanction.",
+    "affected_nodes": [
+      "German Automotive Region",
+      "Port of Shanghai"
+    ],
+    "disruption_types": [
+      "Terrorist Attack",
+      "Geopolitical Sanction"
+    ],
+    "estimated_duration_days": 104,
+    "severity": "High",
+    "root_causes": [
+      "Root cause 0"
+    ],
+    "is_mock": true
+  }
+]
