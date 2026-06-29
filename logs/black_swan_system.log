@@ -1,0 +1,316 @@
+2026-06-29 09:10:30.503 | INFO     | __main__:main:231 - Black Swan Scenario Analysis System starting...
+2026-06-29 09:10:30.503 | INFO     | __main__:main:232 - Mode: generate, Method: pythagorean_topsis
+2026-06-29 09:10:30.538 | INFO     | __main__:run_generation:47 - Generating 20 Black Swan scenarios...
+2026-06-29 09:10:30.539 | INFO     | scenario_generator.generator:_initialize_client:80 - Using mock LLM for testing/demo
+2026-06-29 09:10:30.539 | INFO     | scenario_generator.generator:__init__:56 - ScenarioGenerator initialized with mock/gpt-4
+2026-06-29 09:10:30.539 | INFO     | scenario_generator.generator:generate_scenarios:113 - Generating 20 scenarios in 2 batches
+2026-06-29 09:10:30.558 | DEBUG    | scenario_generator.generator:_generate_mock_scenarios:292 - Generated 10 mock scenarios
+2026-06-29 09:10:30.559 | DEBUG    | scenario_generator.generator:generate_scenarios:134 - Batch 1: Generated 10 scenarios
+2026-06-29 09:10:30.559 | DEBUG    | scenario_generator.generator:_generate_mock_scenarios:292 - Generated 10 mock scenarios
+2026-06-29 09:10:30.559 | DEBUG    | scenario_generator.generator:generate_scenarios:134 - Batch 2: Generated 10 scenarios
+2026-06-29 09:10:30.559 | INFO     | scenario_generator.generator:generate_scenarios:143 - Refining scenarios for diversity and specificity...
+2026-06-29 09:10:30.560 | INFO     | scenario_generator.generator:_save_scenarios:336 - Saved 20 scenarios to data/output/scenarios_latest.json
+2026-06-29 09:10:30.560 | SUCCESS  | scenario_generator.generator:generate_scenarios:149 - Generated 20 total scenarios
+2026-06-29 09:10:30.560 | SUCCESS  | __main__:run_generation:60 - Generated 20 scenarios
+2026-06-29 09:10:30.561 | SUCCESS  | __main__:main:270 - Operation completed successfully!
+2026-06-29 09:10:33.313 | INFO     | __main__:main:231 - Black Swan Scenario Analysis System starting...
+2026-06-29 09:10:33.314 | INFO     | __main__:main:232 - Mode: full, Method: pythagorean_topsis
+2026-06-29 09:10:33.314 | INFO     | __main__:run_full_pipeline:115 - Starting full Black Swan analysis pipeline...
+2026-06-29 09:10:33.314 | INFO     | __main__:run_full_pipeline:122 - ============================================================
+2026-06-29 09:10:33.315 | INFO     | __main__:run_full_pipeline:123 - PHASE 1: Scenario Generation
+2026-06-29 09:10:33.315 | INFO     | __main__:run_full_pipeline:124 - ============================================================
+2026-06-29 09:10:33.320 | INFO     | __main__:run_generation:47 - Generating 30 Black Swan scenarios...
+2026-06-29 09:10:33.320 | INFO     | scenario_generator.generator:_initialize_client:80 - Using mock LLM for testing/demo
+2026-06-29 09:10:33.321 | INFO     | scenario_generator.generator:__init__:56 - ScenarioGenerator initialized with mock/gpt-4
+2026-06-29 09:10:33.321 | INFO     | scenario_generator.generator:generate_scenarios:113 - Generating 30 scenarios in 3 batches
+2026-06-29 09:10:33.337 | DEBUG    | scenario_generator.generator:_generate_mock_scenarios:292 - Generated 10 mock scenarios
+2026-06-29 09:10:33.337 | DEBUG    | scenario_generator.generator:generate_scenarios:134 - Batch 1: Generated 10 scenarios
+2026-06-29 09:10:33.338 | DEBUG    | scenario_generator.generator:_generate_mock_scenarios:292 - Generated 10 mock scenarios
+2026-06-29 09:10:33.338 | DEBUG    | scenario_generator.generator:generate_scenarios:134 - Batch 2: Generated 10 scenarios
+2026-06-29 09:10:33.338 | DEBUG    | scenario_generator.generator:_generate_mock_scenarios:292 - Generated 10 mock scenarios
+2026-06-29 09:10:33.338 | DEBUG    | scenario_generator.generator:generate_scenarios:134 - Batch 3: Generated 10 scenarios
+2026-06-29 09:10:33.338 | INFO     | scenario_generator.generator:generate_scenarios:143 - Refining scenarios for diversity and specificity...
+2026-06-29 09:10:33.340 | INFO     | scenario_generator.generator:_save_scenarios:336 - Saved 30 scenarios to data/output/scenarios_latest.json
+2026-06-29 09:10:33.340 | SUCCESS  | scenario_generator.generator:generate_scenarios:149 - Generated 30 total scenarios
+2026-06-29 09:10:33.340 | SUCCESS  | __main__:run_generation:60 - Generated 30 scenarios
+2026-06-29 09:10:33.340 | INFO     | __main__:run_full_pipeline:130 - ============================================================
+2026-06-29 09:10:33.340 | INFO     | __main__:run_full_pipeline:131 - PHASE 2: NLP Translation
+2026-06-29 09:10:33.341 | INFO     | __main__:run_full_pipeline:132 - ============================================================
+2026-06-29 09:10:33.356 | INFO     | __main__:run_translation:68 - Loading scenarios from data/output/scenarios_raw.json...
+2026-06-29 09:10:33.356 | ERROR    | __main__:main:273 - Pipeline failed: [Errno 2] No such file or directory: 'data/output/scenarios_raw.json'
+Traceback (most recent call last):
+
+  File "/workspace/main.py", line 278, in <module>
+    main()
+    └ <function main at 0x7f9649459580>
+
+> File "/workspace/main.py", line 236, in main
+    results = run_full_pipeline(
+              └ <function run_full_pipeline at 0x7f96494594e0>
+
+  File "/workspace/main.py", line 135, in run_full_pipeline
+    quantitative = run_translation(str(scenarios_file), str(quantitative_file))
+                   │                   │                    └ PosixPath('data/output/scenarios_quantitative.csv')
+                   │                   └ PosixPath('data/output/scenarios_raw.json')
+                   └ <function run_translation at 0x7f96494593a0>
+
+  File "/workspace/main.py", line 70, in run_translation
+    with open(scenarios_file, 'r') as f:
+              └ 'data/output/scenarios_raw.json'
+
+FileNotFoundError: [Errno 2] No such file or directory: 'data/output/scenarios_raw.json'
+2026-06-29 09:10:42.494 | INFO     | __main__:main:236 - Black Swan Scenario Analysis System starting...
+2026-06-29 09:10:42.494 | INFO     | __main__:main:237 - Mode: full, Method: pythagorean_topsis
+2026-06-29 09:10:42.494 | INFO     | __main__:run_full_pipeline:115 - Starting full Black Swan analysis pipeline...
+2026-06-29 09:10:42.494 | INFO     | __main__:run_full_pipeline:122 - ============================================================
+2026-06-29 09:10:42.495 | INFO     | __main__:run_full_pipeline:123 - PHASE 1: Scenario Generation
+2026-06-29 09:10:42.495 | INFO     | __main__:run_full_pipeline:124 - ============================================================
+2026-06-29 09:10:42.500 | INFO     | __main__:run_generation:47 - Generating 30 Black Swan scenarios...
+2026-06-29 09:10:42.500 | INFO     | scenario_generator.generator:_initialize_client:80 - Using mock LLM for testing/demo
+2026-06-29 09:10:42.500 | INFO     | scenario_generator.generator:__init__:56 - ScenarioGenerator initialized with mock/gpt-4
+2026-06-29 09:10:42.500 | INFO     | scenario_generator.generator:generate_scenarios:113 - Generating 30 scenarios in 3 batches
+2026-06-29 09:10:42.518 | DEBUG    | scenario_generator.generator:_generate_mock_scenarios:292 - Generated 10 mock scenarios
+2026-06-29 09:10:42.518 | DEBUG    | scenario_generator.generator:generate_scenarios:134 - Batch 1: Generated 10 scenarios
+2026-06-29 09:10:42.518 | DEBUG    | scenario_generator.generator:_generate_mock_scenarios:292 - Generated 10 mock scenarios
+2026-06-29 09:10:42.518 | DEBUG    | scenario_generator.generator:generate_scenarios:134 - Batch 2: Generated 10 scenarios
+2026-06-29 09:10:42.518 | DEBUG    | scenario_generator.generator:_generate_mock_scenarios:292 - Generated 10 mock scenarios
+2026-06-29 09:10:42.518 | DEBUG    | scenario_generator.generator:generate_scenarios:134 - Batch 3: Generated 10 scenarios
+2026-06-29 09:10:42.519 | INFO     | scenario_generator.generator:generate_scenarios:143 - Refining scenarios for diversity and specificity...
+2026-06-29 09:10:42.520 | INFO     | scenario_generator.generator:_save_scenarios:336 - Saved 30 scenarios to data/output/scenarios_latest.json
+2026-06-29 09:10:42.520 | SUCCESS  | scenario_generator.generator:generate_scenarios:149 - Generated 30 total scenarios
+2026-06-29 09:10:42.520 | SUCCESS  | __main__:run_generation:60 - Generated 30 scenarios
+2026-06-29 09:10:42.521 | INFO     | __main__:run_full_pipeline:135 - ============================================================
+2026-06-29 09:10:42.521 | INFO     | __main__:run_full_pipeline:136 - PHASE 2: NLP Translation
+2026-06-29 09:10:42.521 | INFO     | __main__:run_full_pipeline:137 - ============================================================
+2026-06-29 09:10:42.521 | INFO     | __main__:run_translation:68 - Loading scenarios from data/output/scenarios_raw.json...
+2026-06-29 09:10:42.522 | INFO     | nlp_translator.translator:__init__:84 - ScenarioTranslator initialized
+2026-06-29 09:10:42.522 | INFO     | nlp_translator.translator:translate_scenarios_batch:165 - Translating 30 scenarios...
+2026-06-29 09:10:42.522 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0000
+2026-06-29 09:10:42.522 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0001
+2026-06-29 09:10:42.522 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0002
+2026-06-29 09:10:42.522 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0003
+2026-06-29 09:10:42.522 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0004
+2026-06-29 09:10:42.522 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0005
+2026-06-29 09:10:42.522 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0006
+2026-06-29 09:10:42.523 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0007
+2026-06-29 09:10:42.523 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0008
+2026-06-29 09:10:42.523 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0009
+2026-06-29 09:10:42.523 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0000
+2026-06-29 09:10:42.523 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0001
+2026-06-29 09:10:42.523 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0002
+2026-06-29 09:10:42.523 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0003
+2026-06-29 09:10:42.523 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0004
+2026-06-29 09:10:42.523 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0005
+2026-06-29 09:10:42.523 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0006
+2026-06-29 09:10:42.523 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0007
+2026-06-29 09:10:42.523 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0008
+2026-06-29 09:10:42.523 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0009
+2026-06-29 09:10:42.523 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0000
+2026-06-29 09:10:42.523 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0001
+2026-06-29 09:10:42.523 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0002
+2026-06-29 09:10:42.524 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0003
+2026-06-29 09:10:42.524 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0004
+2026-06-29 09:10:42.524 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0005
+2026-06-29 09:10:42.524 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0006
+2026-06-29 09:10:42.524 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0007
+2026-06-29 09:10:42.524 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0008
+2026-06-29 09:10:42.524 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0009
+2026-06-29 09:10:42.524 | SUCCESS  | nlp_translator.translator:translate_scenarios_batch:176 - Successfully translated 30/30 scenarios
+2026-06-29 09:10:42.535 | INFO     | nlp_translator.translator:export_to_csv:269 - Exported 30 scenarios to data/output/scenarios_quantitative.csv
+2026-06-29 09:10:42.536 | SUCCESS  | __main__:run_translation:84 - Translated 30 scenarios to data/output/scenarios_quantitative.csv
+2026-06-29 09:10:42.537 | INFO     | __main__:run_full_pipeline:143 - ============================================================
+2026-06-29 09:10:42.537 | INFO     | __main__:run_full_pipeline:144 - PHASE 3: Strategy Evaluation
+2026-06-29 09:10:42.537 | INFO     | __main__:run_full_pipeline:145 - ============================================================
+2026-06-29 09:10:42.760 | INFO     | __main__:run_evaluation:92 - Loading quantitative scenarios from data/output/scenarios_quantitative.json...
+2026-06-29 09:10:42.760 | INFO     | __main__:run_evaluation:97 - Evaluating strategies using pythagorean_topsis...
+2026-06-29 09:10:42.760 | INFO     | fuzzy_mcdm.pythagorean_fuzzy_topsis:__init__:30 - PythagoreanFuzzyTOPSIS initialized
+2026-06-29 09:10:42.760 | INFO     | fuzzy_mcdm.strategy_evaluator:__init__:69 - StrategyEvaluator initialized with pythagorean_topsis
+2026-06-29 09:10:42.761 | INFO     | fuzzy_mcdm.strategy_evaluator:evaluate_strategies:98 - Evaluating 8 strategies across 30 scenarios
+2026-06-29 09:10:42.778 | INFO     | fuzzy_mcdm.pythagorean_fuzzy_topsis:evaluate:56 - Evaluating 8 strategies across 30 scenarios
+2026-06-29 09:10:42.819 | SUCCESS  | fuzzy_mcdm.pythagorean_fuzzy_topsis:evaluate:83 - TOPSIS evaluation complete. Best strategy: Supplier Diversification
+2026-06-29 09:10:42.820 | SUCCESS  | fuzzy_mcdm.strategy_evaluator:evaluate_strategies:129 - Strategy evaluation complete
+2026-06-29 09:10:42.820 | INFO     | fuzzy_mcdm.strategy_evaluator:generate_report:338 - Report saved to data/output/strategy_ranking_report.txt
+2026-06-29 09:10:42.820 | INFO     | __main__:run_full_pipeline:154 - ============================================================
+2026-06-29 09:10:42.820 | SUCCESS  | __main__:run_full_pipeline:155 - PIPELINE COMPLETE
+2026-06-29 09:10:42.820 | INFO     | __main__:run_full_pipeline:156 - ============================================================
+2026-06-29 09:10:42.820 | INFO     | __main__:run_full_pipeline:157 - Results saved to: data/output
+2026-06-29 09:10:42.820 | INFO     | __main__:run_full_pipeline:158 - Report: data/output/strategy_ranking_report.txt
+2026-06-29 09:10:42.821 | SUCCESS  | __main__:main:275 - Operation completed successfully!
+2026-06-29 09:10:45.762 | INFO     | __main__:main:236 - Black Swan Scenario Analysis System starting...
+2026-06-29 09:10:45.762 | INFO     | __main__:main:237 - Mode: full, Method: q_rung_vikor
+2026-06-29 09:10:45.762 | INFO     | __main__:run_full_pipeline:115 - Starting full Black Swan analysis pipeline...
+2026-06-29 09:10:45.774 | INFO     | __main__:run_full_pipeline:122 - ============================================================
+2026-06-29 09:10:45.774 | INFO     | __main__:run_full_pipeline:123 - PHASE 1: Scenario Generation
+2026-06-29 09:10:45.774 | INFO     | __main__:run_full_pipeline:124 - ============================================================
+2026-06-29 09:10:45.779 | INFO     | __main__:run_generation:47 - Generating 25 Black Swan scenarios...
+2026-06-29 09:10:45.780 | INFO     | scenario_generator.generator:_initialize_client:80 - Using mock LLM for testing/demo
+2026-06-29 09:10:45.780 | INFO     | scenario_generator.generator:__init__:56 - ScenarioGenerator initialized with mock/gpt-4
+2026-06-29 09:10:45.780 | INFO     | scenario_generator.generator:generate_scenarios:113 - Generating 25 scenarios in 3 batches
+2026-06-29 09:10:45.796 | DEBUG    | scenario_generator.generator:_generate_mock_scenarios:292 - Generated 10 mock scenarios
+2026-06-29 09:10:45.796 | DEBUG    | scenario_generator.generator:generate_scenarios:134 - Batch 1: Generated 10 scenarios
+2026-06-29 09:10:45.797 | DEBUG    | scenario_generator.generator:_generate_mock_scenarios:292 - Generated 10 mock scenarios
+2026-06-29 09:10:45.797 | DEBUG    | scenario_generator.generator:generate_scenarios:134 - Batch 2: Generated 10 scenarios
+2026-06-29 09:10:45.797 | DEBUG    | scenario_generator.generator:_generate_mock_scenarios:292 - Generated 10 mock scenarios
+2026-06-29 09:10:45.797 | DEBUG    | scenario_generator.generator:generate_scenarios:134 - Batch 3: Generated 10 scenarios
+2026-06-29 09:10:45.797 | INFO     | scenario_generator.generator:generate_scenarios:143 - Refining scenarios for diversity and specificity...
+2026-06-29 09:10:45.798 | INFO     | scenario_generator.generator:_save_scenarios:336 - Saved 30 scenarios to data/output/scenarios_latest.json
+2026-06-29 09:10:45.798 | SUCCESS  | scenario_generator.generator:generate_scenarios:149 - Generated 30 total scenarios
+2026-06-29 09:10:45.798 | SUCCESS  | __main__:run_generation:60 - Generated 30 scenarios
+2026-06-29 09:10:45.799 | INFO     | __main__:run_full_pipeline:135 - ============================================================
+2026-06-29 09:10:45.799 | INFO     | __main__:run_full_pipeline:136 - PHASE 2: NLP Translation
+2026-06-29 09:10:45.799 | INFO     | __main__:run_full_pipeline:137 - ============================================================
+2026-06-29 09:10:45.800 | INFO     | __main__:run_translation:68 - Loading scenarios from data/output/scenarios_raw.json...
+2026-06-29 09:10:45.800 | INFO     | nlp_translator.translator:__init__:84 - ScenarioTranslator initialized
+2026-06-29 09:10:45.801 | INFO     | nlp_translator.translator:translate_scenarios_batch:165 - Translating 30 scenarios...
+2026-06-29 09:10:45.801 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0000
+2026-06-29 09:10:45.801 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0001
+2026-06-29 09:10:45.801 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0002
+2026-06-29 09:10:45.801 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0003
+2026-06-29 09:10:45.801 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0004
+2026-06-29 09:10:45.801 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0005
+2026-06-29 09:10:45.801 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0006
+2026-06-29 09:10:45.801 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0007
+2026-06-29 09:10:45.801 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0008
+2026-06-29 09:10:45.801 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0009
+2026-06-29 09:10:45.801 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0000
+2026-06-29 09:10:45.801 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0001
+2026-06-29 09:10:45.801 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0002
+2026-06-29 09:10:45.802 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0003
+2026-06-29 09:10:45.802 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0004
+2026-06-29 09:10:45.802 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0005
+2026-06-29 09:10:45.802 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0006
+2026-06-29 09:10:45.802 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0007
+2026-06-29 09:10:45.802 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0008
+2026-06-29 09:10:45.802 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0009
+2026-06-29 09:10:45.802 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0000
+2026-06-29 09:10:45.802 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0001
+2026-06-29 09:10:45.802 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0002
+2026-06-29 09:10:45.802 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0003
+2026-06-29 09:10:45.802 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0004
+2026-06-29 09:10:45.802 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0005
+2026-06-29 09:10:45.802 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0006
+2026-06-29 09:10:45.802 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0007
+2026-06-29 09:10:45.802 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0008
+2026-06-29 09:10:45.803 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0009
+2026-06-29 09:10:45.803 | SUCCESS  | nlp_translator.translator:translate_scenarios_batch:176 - Successfully translated 30/30 scenarios
+2026-06-29 09:10:45.814 | INFO     | nlp_translator.translator:export_to_csv:269 - Exported 30 scenarios to data/output/scenarios_quantitative.csv
+2026-06-29 09:10:45.815 | SUCCESS  | __main__:run_translation:84 - Translated 30 scenarios to data/output/scenarios_quantitative.csv
+2026-06-29 09:10:45.816 | INFO     | __main__:run_full_pipeline:143 - ============================================================
+2026-06-29 09:10:45.816 | INFO     | __main__:run_full_pipeline:144 - PHASE 3: Strategy Evaluation
+2026-06-29 09:10:45.816 | INFO     | __main__:run_full_pipeline:145 - ============================================================
+2026-06-29 09:10:46.041 | INFO     | __main__:run_evaluation:92 - Loading quantitative scenarios from data/output/scenarios_quantitative.json...
+2026-06-29 09:10:46.041 | INFO     | __main__:run_evaluation:97 - Evaluating strategies using q_rung_vikor...
+2026-06-29 09:10:46.041 | INFO     | fuzzy_mcdm.q_rung_orthopair_vikor:__init__:34 - QRungOrthopairVIKOR initialized with q=3
+2026-06-29 09:10:46.041 | INFO     | fuzzy_mcdm.strategy_evaluator:__init__:69 - StrategyEvaluator initialized with q_rung_vikor
+2026-06-29 09:10:46.042 | INFO     | fuzzy_mcdm.strategy_evaluator:evaluate_strategies:98 - Evaluating 8 strategies across 30 scenarios
+2026-06-29 09:10:46.057 | INFO     | fuzzy_mcdm.q_rung_orthopair_vikor:evaluate:62 - Evaluating 8 strategies with q-ROF VIKOR (q=3)
+2026-06-29 09:10:46.078 | SUCCESS  | fuzzy_mcdm.q_rung_orthopair_vikor:evaluate:167 - VIKOR evaluation complete. Best strategy: Multi-sourcing
+2026-06-29 09:10:46.079 | SUCCESS  | fuzzy_mcdm.strategy_evaluator:evaluate_strategies:129 - Strategy evaluation complete
+2026-06-29 09:10:46.079 | INFO     | fuzzy_mcdm.strategy_evaluator:generate_report:338 - Report saved to data/output/strategy_ranking_report.txt
+2026-06-29 09:10:46.079 | INFO     | __main__:run_full_pipeline:154 - ============================================================
+2026-06-29 09:10:46.080 | SUCCESS  | __main__:run_full_pipeline:155 - PIPELINE COMPLETE
+2026-06-29 09:10:46.080 | INFO     | __main__:run_full_pipeline:156 - ============================================================
+2026-06-29 09:10:46.080 | INFO     | __main__:run_full_pipeline:157 - Results saved to: data/output
+2026-06-29 09:10:46.080 | INFO     | __main__:run_full_pipeline:158 - Report: data/output/strategy_ranking_report.txt
+2026-06-29 09:10:46.080 | SUCCESS  | __main__:main:275 - Operation completed successfully!
+2026-06-29 10:57:16.170 | INFO     | __main__:main:236 - Black Swan Scenario Analysis System starting...
+2026-06-29 10:57:16.171 | INFO     | __main__:main:237 - Mode: full, Method: pythagorean_topsis
+2026-06-29 10:57:16.171 | INFO     | __main__:run_full_pipeline:115 - Starting full Black Swan analysis pipeline...
+2026-06-29 10:57:16.171 | INFO     | __main__:run_full_pipeline:122 - ============================================================
+2026-06-29 10:57:16.171 | INFO     | __main__:run_full_pipeline:123 - PHASE 1: Scenario Generation
+2026-06-29 10:57:16.171 | INFO     | __main__:run_full_pipeline:124 - ============================================================
+2026-06-29 10:57:16.184 | INFO     | __main__:run_generation:47 - Generating 50 Black Swan scenarios...
+2026-06-29 10:57:16.184 | INFO     | scenario_generator.generator:_initialize_client:80 - Using mock LLM for testing/demo
+2026-06-29 10:57:16.184 | INFO     | scenario_generator.generator:__init__:56 - ScenarioGenerator initialized with mock/gpt-4
+2026-06-29 10:57:16.184 | INFO     | scenario_generator.generator:generate_scenarios:113 - Generating 50 scenarios in 5 batches
+2026-06-29 10:57:16.187 | DEBUG    | scenario_generator.generator:_generate_mock_scenarios:292 - Generated 10 mock scenarios
+2026-06-29 10:57:16.187 | DEBUG    | scenario_generator.generator:generate_scenarios:134 - Batch 1: Generated 10 scenarios
+2026-06-29 10:57:16.187 | DEBUG    | scenario_generator.generator:_generate_mock_scenarios:292 - Generated 10 mock scenarios
+2026-06-29 10:57:16.187 | DEBUG    | scenario_generator.generator:generate_scenarios:134 - Batch 2: Generated 10 scenarios
+2026-06-29 10:57:16.187 | DEBUG    | scenario_generator.generator:_generate_mock_scenarios:292 - Generated 10 mock scenarios
+2026-06-29 10:57:16.187 | DEBUG    | scenario_generator.generator:generate_scenarios:134 - Batch 3: Generated 10 scenarios
+2026-06-29 10:57:16.187 | DEBUG    | scenario_generator.generator:_generate_mock_scenarios:292 - Generated 10 mock scenarios
+2026-06-29 10:57:16.188 | DEBUG    | scenario_generator.generator:generate_scenarios:134 - Batch 4: Generated 10 scenarios
+2026-06-29 10:57:16.188 | DEBUG    | scenario_generator.generator:_generate_mock_scenarios:292 - Generated 10 mock scenarios
+2026-06-29 10:57:16.188 | DEBUG    | scenario_generator.generator:generate_scenarios:134 - Batch 5: Generated 10 scenarios
+2026-06-29 10:57:16.188 | INFO     | scenario_generator.generator:generate_scenarios:143 - Refining scenarios for diversity and specificity...
+2026-06-29 10:57:16.189 | INFO     | scenario_generator.generator:_save_scenarios:336 - Saved 50 scenarios to data/output/scenarios_latest.json
+2026-06-29 10:57:16.189 | SUCCESS  | scenario_generator.generator:generate_scenarios:149 - Generated 50 total scenarios
+2026-06-29 10:57:16.189 | SUCCESS  | __main__:run_generation:60 - Generated 50 scenarios
+2026-06-29 10:57:16.200 | INFO     | __main__:run_full_pipeline:135 - ============================================================
+2026-06-29 10:57:16.200 | INFO     | __main__:run_full_pipeline:136 - PHASE 2: NLP Translation
+2026-06-29 10:57:16.201 | INFO     | __main__:run_full_pipeline:137 - ============================================================
+2026-06-29 10:57:16.201 | INFO     | __main__:run_translation:68 - Loading scenarios from data/output/scenarios_raw.json...
+2026-06-29 10:57:16.202 | INFO     | nlp_translator.translator:__init__:84 - ScenarioTranslator initialized
+2026-06-29 10:57:16.202 | INFO     | nlp_translator.translator:translate_scenarios_batch:165 - Translating 50 scenarios...
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0000
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0001
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0002
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0003
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0004
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0005
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0006
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0007
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0008
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0009
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0000
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0001
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0002
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0003
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0004
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0005
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0006
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0007
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0008
+2026-06-29 10:57:16.202 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0009
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0000
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0001
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0002
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0003
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0004
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0005
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0006
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0007
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0008
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0009
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0000
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0001
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0002
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0003
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0004
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0005
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0006
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0007
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0008
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0009
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0000
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0001
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0002
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0003
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0004
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0005
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0006
+2026-06-29 10:57:16.203 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0007
+2026-06-29 10:57:16.204 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0008
+2026-06-29 10:57:16.204 | DEBUG    | nlp_translator.translator:translate_scenario:152 - Translated scenario mock_scenario_0009
+2026-06-29 10:57:16.204 | SUCCESS  | nlp_translator.translator:translate_scenarios_batch:176 - Successfully translated 50/50 scenarios
+2026-06-29 10:57:16.205 | INFO     | nlp_translator.translator:export_to_csv:269 - Exported 50 scenarios to data/output/scenarios_quantitative.csv
+2026-06-29 10:57:16.206 | SUCCESS  | __main__:run_translation:84 - Translated 50 scenarios to data/output/scenarios_quantitative.csv
+2026-06-29 10:57:16.206 | INFO     | __main__:run_full_pipeline:143 - ============================================================
+2026-06-29 10:57:16.206 | INFO     | __main__:run_full_pipeline:144 - PHASE 3: Strategy Evaluation
+2026-06-29 10:57:16.206 | INFO     | __main__:run_full_pipeline:145 - ============================================================
+2026-06-29 10:57:16.383 | INFO     | __main__:run_evaluation:92 - Loading quantitative scenarios from data/output/scenarios_quantitative.json...
+2026-06-29 10:57:16.383 | INFO     | __main__:run_evaluation:97 - Evaluating strategies using pythagorean_topsis...
+2026-06-29 10:57:16.383 | INFO     | fuzzy_mcdm.pythagorean_fuzzy_topsis:__init__:30 - PythagoreanFuzzyTOPSIS initialized
+2026-06-29 10:57:16.383 | INFO     | fuzzy_mcdm.strategy_evaluator:__init__:69 - StrategyEvaluator initialized with pythagorean_topsis
+2026-06-29 10:57:16.383 | INFO     | fuzzy_mcdm.strategy_evaluator:evaluate_strategies:98 - Evaluating 8 strategies across 50 scenarios
+2026-06-29 10:57:16.387 | INFO     | fuzzy_mcdm.pythagorean_fuzzy_topsis:evaluate:56 - Evaluating 8 strategies across 50 scenarios
+2026-06-29 10:57:16.425 | SUCCESS  | fuzzy_mcdm.pythagorean_fuzzy_topsis:evaluate:83 - TOPSIS evaluation complete. Best strategy: Supplier Diversification
+2026-06-29 10:57:16.425 | SUCCESS  | fuzzy_mcdm.strategy_evaluator:evaluate_strategies:129 - Strategy evaluation complete
+2026-06-29 10:57:16.425 | INFO     | fuzzy_mcdm.strategy_evaluator:generate_report:338 - Report saved to data/output/strategy_ranking_report.txt
+2026-06-29 10:57:16.425 | INFO     | __main__:run_full_pipeline:154 - ============================================================
+2026-06-29 10:57:16.425 | SUCCESS  | __main__:run_full_pipeline:155 - PIPELINE COMPLETE
+2026-06-29 10:57:16.425 | INFO     | __main__:run_full_pipeline:156 - ============================================================
+2026-06-29 10:57:16.425 | INFO     | __main__:run_full_pipeline:157 - Results saved to: data/output
+2026-06-29 10:57:16.426 | INFO     | __main__:run_full_pipeline:158 - Report: data/output/strategy_ranking_report.txt
+2026-06-29 10:57:16.426 | SUCCESS  | __main__:main:275 - Operation completed successfully!

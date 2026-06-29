@@ -1,0 +1,31 @@
+============================================================
+SUPPLY CHAIN RESILIENCE STRATEGY EVALUATION REPORT
+============================================================
+
+MCDM Method: pythagorean_topsis
+Number of Strategies Evaluated: 8
+
+------------------------------------------------------------
+STRATEGY RANKINGS
+------------------------------------------------------------
+
+1. Supplier Diversification       Score: 1.0000
+2. Agile Manufacturing            Score: 1.0000
+3. Digital Twin Implementation    Score: 0.8052
+4. Multi-sourcing                 Score: 0.7716
+5. Strategic Partnerships         Score: 0.6659
+6. Nearshoring                    Score: 0.6159
+7. Safety Stock Holding           Score: 0.5972
+8. Vertical Integration           Score: 0.5730
+
+------------------------------------------------------------
+RECOMMENDATIONS
+------------------------------------------------------------
+
+Top Strategy: Supplier Diversification
+
+The top-ranked strategy demonstrates the best overall performance
+across all generated Black Swan scenarios, balancing cost efficiency,
+response time, flexibility, and risk mitigation capabilities.
+
+============================================================
