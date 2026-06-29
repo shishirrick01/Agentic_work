@@ -5,126 +5,9 @@
     "cost_increase_pct": 0.95,
     "capacity_reduction_pct": 0.95,
     "reliability_score": 0.24,
-    "recovery_time_days": 41.3,
-    "total_cost_impact": 1.14,
-    "duration_days": 28,
-    "duration_category": "medium_term",
-    "duration_factor": 1.0,
-    "severity_level": "high",
-    "severity_multiplier": 1.5,
-    "num_affected_nodes": 3,
-    "complexity_score": 0.7067,
-    "affected_nodes": [
-      "Panama Canal",
-      "Strait of Hormuz",
-      "Port of Los Angeles"
-    ],
-    "disruption_types": [
-      "Infrastructure Failure",
-      "Terrorist Attack",
-      "Financial Collapse"
-    ],
-    "root_causes": [
-      "Root cause 0"
-    ]
-  },
-  {
-    "scenario_id": "mock_scenario_0001",
-    "lead_time_increase_pct": 0.95,
-    "cost_increase_pct": 0.95,
-    "capacity_reduction_pct": 0.95,
-    "reliability_score": 0.24,
-    "recovery_time_days": 207.98,
-    "total_cost_impact": 1.33,
-    "duration_days": 141,
-    "duration_category": "extended",
-    "duration_factor": 2.0,
-    "severity_level": "medium",
-    "severity_multiplier": 1.0,
-    "num_affected_nodes": 3,
-    "complexity_score": 0.5733,
-    "affected_nodes": [
-      "Panama Canal",
-      "Port of Shanghai",
-      "German Automotive Region"
-    ],
-    "disruption_types": [
-      "Infrastructure Failure",
-      "Pandemic Outbreak"
-    ],
-    "root_causes": [
-      "Root cause 0"
-    ]
-  },
-  {
-    "scenario_id": "mock_scenario_0002",
-    "lead_time_increase_pct": 0.95,
-    "cost_increase_pct": 0.95,
-    "capacity_reduction_pct": 0.95,
-    "reliability_score": 0.24,
-    "recovery_time_days": 50.15,
+    "recovery_time_days": 109.15,
     "total_cost_impact": 1.235,
-    "duration_days": 34,
-    "duration_category": "long_term",
-    "duration_factor": 1.5,
-    "severity_level": "high",
-    "severity_multiplier": 1.5,
-    "num_affected_nodes": 2,
-    "complexity_score": 0.76,
-    "affected_nodes": [
-      "Suez Canal",
-      "Taiwan Semiconductor Facilities"
-    ],
-    "disruption_types": [
-      "Labor Strike",
-      "Financial Collapse",
-      "Pandemic Outbreak"
-    ],
-    "root_causes": [
-      "Root cause 0",
-      "Root cause 1",
-      "Root cause 2"
-    ]
-  },
-  {
-    "scenario_id": "mock_scenario_0003",
-    "lead_time_increase_pct": 0.95,
-    "cost_increase_pct": 0.675,
-    "capacity_reduction_pct": 0.95,
-    "reliability_score": 0.24,
-    "recovery_time_days": 169.62,
-    "total_cost_impact": 0.945,
-    "duration_days": 115,
-    "duration_category": "extended",
-    "duration_factor": 2.0,
-    "severity_level": "high",
-    "severity_multiplier": 1.5,
-    "num_affected_nodes": 3,
-    "complexity_score": 0.7733,
-    "affected_nodes": [
-      "Port of Rotterdam",
-      "Strait of Hormuz",
-      "Port of Los Angeles"
-    ],
-    "disruption_types": [
-      "Extreme Weather",
-      "Terrorist Attack",
-      "Labor Strike"
-    ],
-    "root_causes": [
-      "Root cause 0",
-      "Root cause 1"
-    ]
-  },
-  {
-    "scenario_id": "mock_scenario_0004",
-    "lead_time_increase_pct": 0.4,
-    "cost_increase_pct": 0.3,
-    "capacity_reduction_pct": 0.4,
-    "reliability_score": 0.68,
-    "recovery_time_days": 99.6,
-    "total_cost_impact": 0.39,
-    "duration_days": 83,
+    "duration_days": 74,
     "duration_category": "long_term",
     "duration_factor": 1.5,
     "severity_level": "extreme",
@@ -133,40 +16,41 @@
     "complexity_score": 0.4933,
     "affected_nodes": [
       "Australian Mining Region",
-      "Suez Canal"
+      "Port of Los Angeles"
     ],
     "disruption_types": [
-      "Extreme Weather",
-      "AI System Malfunction"
+      "Geopolitical Sanction",
+      "Pandemic Outbreak"
     ],
     "root_causes": [
       "Root cause 0"
     ]
   },
   {
-    "scenario_id": "mock_scenario_0005",
-    "lead_time_increase_pct": 0.4,
-    "cost_increase_pct": 0.3375,
-    "capacity_reduction_pct": 0.4375,
-    "reliability_score": 0.65,
-    "recovery_time_days": 188.4,
-    "total_cost_impact": 0.4725,
-    "duration_days": 157,
-    "duration_category": "extended",
-    "duration_factor": 2.0,
+    "scenario_id": "mock_scenario_0001",
+    "lead_time_increase_pct": 0.7375,
+    "cost_increase_pct": 0.7125,
+    "capacity_reduction_pct": 0.775,
+    "reliability_score": 0.38,
+    "recovery_time_days": 12.32,
+    "total_cost_impact": 0.855,
+    "duration_days": 9,
+    "duration_category": "medium_term",
+    "duration_factor": 1.0,
     "severity_level": "low",
     "severity_multiplier": 0.5,
-    "num_affected_nodes": 3,
-    "complexity_score": 0.84,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.92,
     "affected_nodes": [
+      "Port of Rotterdam",
+      "Suez Canal",
       "Taiwan Semiconductor Facilities",
-      "Port of Los Angeles",
-      "German Automotive Region"
+      "Port of Los Angeles"
     ],
     "disruption_types": [
-      "Pandemic Outbreak",
-      "Satellite Network Failure",
-      "Financial Collapse"
+      "Infrastructure Failure",
+      "Resource Shortage",
+      "Satellite Network Failure"
     ],
     "root_causes": [
       "Root cause 0",
@@ -175,38 +59,7 @@
     ]
   },
   {
-    "scenario_id": "mock_scenario_0006",
-    "lead_time_increase_pct": 0.575,
-    "cost_increase_pct": 0.675,
-    "capacity_reduction_pct": 0.65,
-    "reliability_score": 0.48,
-    "recovery_time_days": 146.78,
-    "total_cost_impact": 0.945,
-    "duration_days": 114,
-    "duration_category": "extended",
-    "duration_factor": 2.0,
-    "severity_level": "medium",
-    "severity_multiplier": 1.0,
-    "num_affected_nodes": 4,
-    "complexity_score": 0.8533,
-    "affected_nodes": [
-      "Taiwan Semiconductor Facilities",
-      "Australian Mining Region",
-      "Port of Shanghai",
-      "Port of Los Angeles"
-    ],
-    "disruption_types": [
-      "Extreme Weather",
-      "Geopolitical Sanction",
-      "Financial Collapse"
-    ],
-    "root_causes": [
-      "Root cause 0",
-      "Root cause 1"
-    ]
-  },
-  {
-    "scenario_id": "mock_scenario_0007",
+    "scenario_id": "mock_scenario_0002",
     "lead_time_increase_pct": 0.95,
     "cost_increase_pct": 0.95,
     "capacity_reduction_pct": 0.95,
@@ -218,45 +71,76 @@
     "duration_factor": 1.0,
     "severity_level": "high",
     "severity_multiplier": 1.5,
+    "num_affected_nodes": 2,
+    "complexity_score": 0.76,
+    "affected_nodes": [
+      "Panama Canal",
+      "Port of Rotterdam"
+    ],
+    "disruption_types": [
+      "Cyberattack",
+      "Geopolitical Sanction",
+      "Labor Strike"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0003",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 98.83,
+    "total_cost_impact": 1.235,
+    "duration_days": 67,
+    "duration_category": "long_term",
+    "duration_factor": 1.5,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
     "num_affected_nodes": 4,
     "complexity_score": 0.7867,
     "affected_nodes": [
-      "Port of Los Angeles",
-      "Australian Mining Region",
+      "German Automotive Region",
+      "Strait of Hormuz",
       "Shenzhen Manufacturing Hub",
-      "Taiwan Semiconductor Facilities"
+      "Port of Shanghai"
     ],
     "disruption_types": [
-      "Pandemic Outbreak",
-      "Resource Shortage",
-      "Infrastructure Failure"
+      "Cyberattack",
+      "Infrastructure Failure",
+      "Pandemic Outbreak"
     ],
     "root_causes": [
       "Root cause 0"
     ]
   },
   {
-    "scenario_id": "mock_scenario_0008",
-    "lead_time_increase_pct": 0.7,
-    "cost_increase_pct": 0.45,
-    "capacity_reduction_pct": 0.8125,
-    "reliability_score": 0.35,
-    "recovery_time_days": 87.75,
-    "total_cost_impact": 0.585,
-    "duration_days": 65,
-    "duration_category": "long_term",
-    "duration_factor": 1.5,
-    "severity_level": "low",
-    "severity_multiplier": 0.5,
+    "scenario_id": "mock_scenario_0004",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 181.43,
+    "total_cost_impact": 1.33,
+    "duration_days": 123,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
     "num_affected_nodes": 3,
-    "complexity_score": 0.64,
+    "complexity_score": 0.7733,
     "affected_nodes": [
-      "German Automotive Region",
-      "Australian Mining Region",
-      "Strait of Hormuz"
+      "Shenzhen Manufacturing Hub",
+      "Taiwan Semiconductor Facilities",
+      "Port of Shanghai"
     ],
     "disruption_types": [
-      "Labor Strike",
+      "Infrastructure Failure",
+      "Pandemic Outbreak",
       "Cyberattack"
     ],
     "root_causes": [
@@ -265,28 +149,120 @@
     ]
   },
   {
-    "scenario_id": "mock_scenario_0009",
+    "scenario_id": "mock_scenario_0005",
     "lead_time_increase_pct": 0.95,
     "cost_increase_pct": 0.95,
     "capacity_reduction_pct": 0.95,
     "reliability_score": 0.24,
-    "recovery_time_days": 202.08,
-    "total_cost_impact": 1.33,
-    "duration_days": 137,
-    "duration_category": "extended",
-    "duration_factor": 2.0,
-    "severity_level": "high",
-    "severity_multiplier": 1.5,
-    "num_affected_nodes": 2,
-    "complexity_score": 0.6933,
+    "recovery_time_days": 69.33,
+    "total_cost_impact": 1.235,
+    "duration_days": 47,
+    "duration_category": "long_term",
+    "duration_factor": 1.5,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.7867,
     "affected_nodes": [
+      "Taiwan Semiconductor Facilities",
+      "Strait of Hormuz",
       "Shenzhen Manufacturing Hub",
       "Panama Canal"
     ],
     "disruption_types": [
       "Geopolitical Sanction",
-      "Resource Shortage",
+      "Resource Shortage"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0006",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 28.03,
+    "total_cost_impact": 1.14,
+    "duration_days": 19,
+    "duration_category": "medium_term",
+    "duration_factor": 1.0,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.6533,
+    "affected_nodes": [
+      "Australian Mining Region",
+      "Shenzhen Manufacturing Hub",
+      "German Automotive Region",
+      "Strait of Hormuz"
+    ],
+    "disruption_types": [
+      "Pandemic Outbreak",
+      "Extreme Weather"
+    ],
+    "root_causes": [
+      "Root cause 0"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0007",
+    "lead_time_increase_pct": 0.7375,
+    "cost_increase_pct": 0.6,
+    "capacity_reduction_pct": 0.85,
+    "reliability_score": 0.32,
+    "recovery_time_days": 192.99,
+    "total_cost_impact": 0.84,
+    "duration_days": 141,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
+    "severity_level": "low",
+    "severity_multiplier": 0.5,
+    "num_affected_nodes": 3,
+    "complexity_score": 0.7067,
+    "affected_nodes": [
+      "Panama Canal",
+      "Port of Rotterdam",
+      "Shenzhen Manufacturing Hub"
+    ],
+    "disruption_types": [
+      "Pandemic Outbreak",
       "Infrastructure Failure"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0008",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 253.7,
+    "total_cost_impact": 1.33,
+    "duration_days": 172,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
+    "severity_level": "medium",
+    "severity_multiplier": 1.0,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.8533,
+    "affected_nodes": [
+      "Taiwan Semiconductor Facilities",
+      "Shenzhen Manufacturing Hub",
+      "Strait of Hormuz",
+      "Panama Canal"
+    ],
+    "disruption_types": [
+      "Infrastructure Failure",
+      "Pandemic Outbreak",
+      "Satellite Network Failure"
     ],
     "root_causes": [
       "Root cause 0",
@@ -294,26 +270,175 @@
     ]
   },
   {
-    "scenario_id": "mock_scenario_0000",
+    "scenario_id": "mock_scenario_0009",
     "lead_time_increase_pct": 0.2,
     "cost_increase_pct": 0.15,
     "capacity_reduction_pct": 0.2,
     "reliability_score": 0.84,
-    "recovery_time_days": 63.8,
-    "total_cost_impact": 0.195,
-    "duration_days": 58,
-    "duration_category": "long_term",
-    "duration_factor": 1.5,
+    "recovery_time_days": 23.1,
+    "total_cost_impact": 0.18,
+    "duration_days": 21,
+    "duration_category": "medium_term",
+    "duration_factor": 1.0,
     "severity_level": "medium",
     "severity_multiplier": 1.0,
     "num_affected_nodes": 2,
-    "complexity_score": 0.56,
+    "complexity_score": 0.4933,
+    "affected_nodes": [
+      "Port of Los Angeles",
+      "Suez Canal"
+    ],
+    "disruption_types": [
+      "AI System Malfunction",
+      "Financial Collapse"
+    ],
+    "root_causes": [
+      "Root cause 0"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0000",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 250.75,
+    "total_cost_impact": 1.33,
+    "duration_days": 170,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
+    "severity_level": "medium",
+    "severity_multiplier": 1.0,
+    "num_affected_nodes": 2,
+    "complexity_score": 0.76,
     "affected_nodes": [
       "Port of Los Angeles",
       "Taiwan Semiconductor Facilities"
     ],
     "disruption_types": [
-      "Extreme Weather",
+      "Cyberattack",
+      "Pandemic Outbreak",
+      "Labor Strike"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0001",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 241.9,
+    "total_cost_impact": 1.33,
+    "duration_days": 164,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.7867,
+    "affected_nodes": [
+      "Taiwan Semiconductor Facilities",
+      "Australian Mining Region",
+      "Strait of Hormuz",
+      "Port of Los Angeles"
+    ],
+    "disruption_types": [
+      "Infrastructure Failure",
+      "Cyberattack",
+      "Satellite Network Failure"
+    ],
+    "root_causes": [
+      "Root cause 0"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0002",
+    "lead_time_increase_pct": 0.4,
+    "cost_increase_pct": 0.45,
+    "capacity_reduction_pct": 0.3625,
+    "reliability_score": 0.71,
+    "recovery_time_days": 96.0,
+    "total_cost_impact": 0.585,
+    "duration_days": 80,
+    "duration_category": "long_term",
+    "duration_factor": 1.5,
+    "severity_level": "low",
+    "severity_multiplier": 0.5,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.92,
+    "affected_nodes": [
+      "Port of Los Angeles",
+      "German Automotive Region",
+      "Shenzhen Manufacturing Hub",
+      "Strait of Hormuz"
+    ],
+    "disruption_types": [
+      "Terrorist Attack",
+      "Resource Shortage",
+      "AI System Malfunction"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0003",
+    "lead_time_increase_pct": 0.7,
+    "cost_increase_pct": 0.4875,
+    "capacity_reduction_pct": 0.8125,
+    "reliability_score": 0.35,
+    "recovery_time_days": 171.45,
+    "total_cost_impact": 0.6825,
+    "duration_days": 127,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
+    "severity_level": "low",
+    "severity_multiplier": 0.5,
+    "num_affected_nodes": 3,
+    "complexity_score": 0.7067,
+    "affected_nodes": [
+      "Taiwan Semiconductor Facilities",
+      "Shenzhen Manufacturing Hub",
+      "German Automotive Region"
+    ],
+    "disruption_types": [
+      "Cyberattack",
+      "Infrastructure Failure",
+      "Terrorist Attack"
+    ],
+    "root_causes": [
+      "Root cause 0"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0004",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 182.9,
+    "total_cost_impact": 1.33,
+    "duration_days": 124,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
+    "num_affected_nodes": 3,
+    "complexity_score": 0.64,
+    "affected_nodes": [
+      "Suez Canal",
+      "Australian Mining Region",
+      "Panama Canal"
+    ],
+    "disruption_types": [
+      "Pandemic Outbreak",
       "Financial Collapse"
     ],
     "root_causes": [
@@ -322,28 +447,200 @@
     ]
   },
   {
-    "scenario_id": "mock_scenario_0001",
-    "lead_time_increase_pct": 0.675,
-    "cost_increase_pct": 0.75,
-    "capacity_reduction_pct": 0.75,
-    "reliability_score": 0.4,
-    "recovery_time_days": 64.2,
-    "total_cost_impact": 0.975,
-    "duration_days": 48,
+    "scenario_id": "mock_scenario_0005",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 79.65,
+    "total_cost_impact": 1.235,
+    "duration_days": 54,
     "duration_category": "long_term",
     "duration_factor": 1.5,
     "severity_level": "high",
     "severity_multiplier": 1.5,
     "num_affected_nodes": 2,
-    "complexity_score": 0.6933,
+    "complexity_score": 0.4933,
     "affected_nodes": [
-      "Panama Canal",
-      "Australian Mining Region"
+      "Port of Rotterdam",
+      "Taiwan Semiconductor Facilities"
     ],
     "disruption_types": [
-      "AI System Malfunction",
-      "Terrorist Attack",
+      "Geopolitical Sanction",
+      "Pandemic Outbreak"
+    ],
+    "root_causes": [
+      "Root cause 0"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0006",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 95.88,
+    "total_cost_impact": 1.235,
+    "duration_days": 65,
+    "duration_category": "long_term",
+    "duration_factor": 1.5,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
+    "num_affected_nodes": 3,
+    "complexity_score": 0.5733,
+    "affected_nodes": [
+      "Port of Los Angeles",
+      "Panama Canal",
+      "Taiwan Semiconductor Facilities"
+    ],
+    "disruption_types": [
+      "Labor Strike",
+      "Cyberattack"
+    ],
+    "root_causes": [
+      "Root cause 0"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0007",
+    "lead_time_increase_pct": 0.2875,
+    "cost_increase_pct": 0.3375,
+    "capacity_reduction_pct": 0.325,
+    "reliability_score": 0.74,
+    "recovery_time_days": 36.6,
+    "total_cost_impact": 0.4388,
+    "duration_days": 32,
+    "duration_category": "long_term",
+    "duration_factor": 1.5,
+    "severity_level": "low",
+    "severity_multiplier": 0.5,
+    "num_affected_nodes": 3,
+    "complexity_score": 0.5733,
+    "affected_nodes": [
+      "Suez Canal",
+      "Panama Canal",
+      "Port of Shanghai"
+    ],
+    "disruption_types": [
+      "Extreme Weather",
       "Geopolitical Sanction"
+    ],
+    "root_causes": [
+      "Root cause 0"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0008",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.9,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 54.58,
+    "total_cost_impact": 1.17,
+    "duration_days": 37,
+    "duration_category": "long_term",
+    "duration_factor": 1.5,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.7867,
+    "affected_nodes": [
+      "Port of Shanghai",
+      "Suez Canal",
+      "Port of Rotterdam",
+      "Strait of Hormuz"
+    ],
+    "disruption_types": [
+      "Cyberattack",
+      "Terrorist Attack",
+      "Extreme Weather"
+    ],
+    "root_causes": [
+      "Root cause 0"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0009",
+    "lead_time_increase_pct": 0.4,
+    "cost_increase_pct": 0.3,
+    "capacity_reduction_pct": 0.4,
+    "reliability_score": 0.68,
+    "recovery_time_days": 190.8,
+    "total_cost_impact": 0.42,
+    "duration_days": 159,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
+    "num_affected_nodes": 2,
+    "complexity_score": 0.56,
+    "affected_nodes": [
+      "German Automotive Region",
+      "Taiwan Semiconductor Facilities"
+    ],
+    "disruption_types": [
+      "Terrorist Attack",
+      "Extreme Weather"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0000",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 53.1,
+    "total_cost_impact": 1.235,
+    "duration_days": 36,
+    "duration_category": "long_term",
+    "duration_factor": 1.5,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.7867,
+    "affected_nodes": [
+      "Taiwan Semiconductor Facilities",
+      "Port of Los Angeles",
+      "Port of Rotterdam",
+      "Shenzhen Manufacturing Hub"
+    ],
+    "disruption_types": [
+      "Extreme Weather",
+      "Infrastructure Failure",
+      "Satellite Network Failure"
+    ],
+    "root_causes": [
+      "Root cause 0"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0001",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.9,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 116.53,
+    "total_cost_impact": 1.17,
+    "duration_days": 79,
+    "duration_category": "long_term",
+    "duration_factor": 1.5,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
+    "num_affected_nodes": 3,
+    "complexity_score": 0.7733,
+    "affected_nodes": [
+      "Taiwan Semiconductor Facilities",
+      "Suez Canal",
+      "Port of Rotterdam"
+    ],
+    "disruption_types": [
+      "Satellite Network Failure",
+      "Cyberattack",
+      "Extreme Weather"
     ],
     "root_causes": [
       "Root cause 0",
@@ -356,9 +653,513 @@
     "cost_increase_pct": 0.95,
     "capacity_reduction_pct": 0.95,
     "reliability_score": 0.24,
-    "recovery_time_days": 153.4,
+    "recovery_time_days": 39.83,
+    "total_cost_impact": 1.14,
+    "duration_days": 27,
+    "duration_category": "medium_term",
+    "duration_factor": 1.0,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
+    "num_affected_nodes": 3,
+    "complexity_score": 0.5733,
+    "affected_nodes": [
+      "Port of Rotterdam",
+      "Suez Canal",
+      "Shenzhen Manufacturing Hub"
+    ],
+    "disruption_types": [
+      "Geopolitical Sanction",
+      "Cyberattack"
+    ],
+    "root_causes": [
+      "Root cause 0"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0003",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 89.98,
+    "total_cost_impact": 1.235,
+    "duration_days": 61,
+    "duration_category": "long_term",
+    "duration_factor": 1.5,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
+    "num_affected_nodes": 2,
+    "complexity_score": 0.56,
+    "affected_nodes": [
+      "Australian Mining Region",
+      "German Automotive Region"
+    ],
+    "disruption_types": [
+      "AI System Malfunction",
+      "Labor Strike"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0004",
+    "lead_time_increase_pct": 0.1,
+    "cost_increase_pct": 0.075,
+    "capacity_reduction_pct": 0.1,
+    "reliability_score": 0.92,
+    "recovery_time_days": 12.6,
+    "total_cost_impact": 0.09,
+    "duration_days": 12,
+    "duration_category": "medium_term",
+    "duration_factor": 1.0,
+    "severity_level": "low",
+    "severity_multiplier": 0.5,
+    "num_affected_nodes": 2,
+    "complexity_score": 0.4933,
+    "affected_nodes": [
+      "Port of Shanghai",
+      "Strait of Hormuz"
+    ],
+    "disruption_types": [
+      "Terrorist Attack",
+      "Satellite Network Failure"
+    ],
+    "root_causes": [
+      "Root cause 0"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0005",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 25.08,
+    "total_cost_impact": 1.14,
+    "duration_days": 17,
+    "duration_category": "medium_term",
+    "duration_factor": 1.0,
+    "severity_level": "high",
+    "severity_multiplier": 1.5,
+    "num_affected_nodes": 2,
+    "complexity_score": 0.76,
+    "affected_nodes": [
+      "Australian Mining Region",
+      "Shenzhen Manufacturing Hub"
+    ],
+    "disruption_types": [
+      "Infrastructure Failure",
+      "Labor Strike",
+      "Resource Shortage"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0006",
+    "lead_time_increase_pct": 0.725,
+    "cost_increase_pct": 0.45,
+    "capacity_reduction_pct": 0.8,
+    "reliability_score": 0.36,
+    "recovery_time_days": 31.34,
+    "total_cost_impact": 0.54,
+    "duration_days": 23,
+    "duration_category": "medium_term",
+    "duration_factor": 1.0,
+    "severity_level": "medium",
+    "severity_multiplier": 1.0,
+    "num_affected_nodes": 3,
+    "complexity_score": 0.5733,
+    "affected_nodes": [
+      "Port of Rotterdam",
+      "Strait of Hormuz",
+      "Port of Shanghai"
+    ],
+    "disruption_types": [
+      "Cyberattack",
+      "AI System Malfunction"
+    ],
+    "root_causes": [
+      "Root cause 0"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0007",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 126.85,
+    "total_cost_impact": 1.235,
+    "duration_days": 86,
+    "duration_category": "long_term",
+    "duration_factor": 1.5,
+    "severity_level": "high",
+    "severity_multiplier": 1.5,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.72,
+    "affected_nodes": [
+      "Strait of Hormuz",
+      "Australian Mining Region",
+      "Port of Los Angeles",
+      "German Automotive Region"
+    ],
+    "disruption_types": [
+      "Resource Shortage",
+      "Geopolitical Sanction"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0008",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 241.9,
     "total_cost_impact": 1.33,
-    "duration_days": 104,
+    "duration_days": 164,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
+    "severity_level": "high",
+    "severity_multiplier": 1.5,
+    "num_affected_nodes": 3,
+    "complexity_score": 0.84,
+    "affected_nodes": [
+      "Shenzhen Manufacturing Hub",
+      "Suez Canal",
+      "Port of Shanghai"
+    ],
+    "disruption_types": [
+      "Satellite Network Failure",
+      "Infrastructure Failure",
+      "Labor Strike"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0009",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 190.28,
+    "total_cost_impact": 1.33,
+    "duration_days": 129,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
+    "num_affected_nodes": 3,
+    "complexity_score": 0.7067,
+    "affected_nodes": [
+      "Shenzhen Manufacturing Hub",
+      "Australian Mining Region",
+      "Port of Rotterdam"
+    ],
+    "disruption_types": [
+      "Geopolitical Sanction",
+      "AI System Malfunction",
+      "Financial Collapse"
+    ],
+    "root_causes": [
+      "Root cause 0"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0000",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.9,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 32.45,
+    "total_cost_impact": 1.08,
+    "duration_days": 22,
+    "duration_category": "medium_term",
+    "duration_factor": 1.0,
+    "severity_level": "high",
+    "severity_multiplier": 1.5,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.7867,
+    "affected_nodes": [
+      "Strait of Hormuz",
+      "Taiwan Semiconductor Facilities",
+      "Port of Los Angeles",
+      "German Automotive Region"
+    ],
+    "disruption_types": [
+      "Financial Collapse",
+      "Labor Strike"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0001",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 36.88,
+    "total_cost_impact": 1.14,
+    "duration_days": 25,
+    "duration_category": "medium_term",
+    "duration_factor": 1.0,
+    "severity_level": "high",
+    "severity_multiplier": 1.5,
+    "num_affected_nodes": 3,
+    "complexity_score": 0.7067,
+    "affected_nodes": [
+      "Panama Canal",
+      "Taiwan Semiconductor Facilities",
+      "Suez Canal"
+    ],
+    "disruption_types": [
+      "Labor Strike",
+      "Resource Shortage",
+      "Terrorist Attack"
+    ],
+    "root_causes": [
+      "Root cause 0"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0002",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.9,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 122.43,
+    "total_cost_impact": 1.17,
+    "duration_days": 83,
+    "duration_category": "long_term",
+    "duration_factor": 1.5,
+    "severity_level": "high",
+    "severity_multiplier": 1.5,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.7867,
+    "affected_nodes": [
+      "Suez Canal",
+      "Port of Shanghai",
+      "Panama Canal",
+      "Strait of Hormuz"
+    ],
+    "disruption_types": [
+      "Extreme Weather",
+      "Labor Strike"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0003",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 132.75,
+    "total_cost_impact": 1.235,
+    "duration_days": 90,
+    "duration_category": "long_term",
+    "duration_factor": 1.5,
+    "severity_level": "medium",
+    "severity_multiplier": 1.0,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.8533,
+    "affected_nodes": [
+      "Panama Canal",
+      "Port of Rotterdam",
+      "German Automotive Region",
+      "Australian Mining Region"
+    ],
+    "disruption_types": [
+      "Resource Shortage",
+      "Labor Strike",
+      "Extreme Weather"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0004",
+    "lead_time_increase_pct": 0.6375,
+    "cost_increase_pct": 0.55,
+    "capacity_reduction_pct": 0.6875,
+    "reliability_score": 0.45,
+    "recovery_time_days": 234.74,
+    "total_cost_impact": 0.77,
+    "duration_days": 178,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
+    "severity_level": "low",
+    "severity_multiplier": 0.5,
+    "num_affected_nodes": 2,
+    "complexity_score": 0.6267,
+    "affected_nodes": [
+      "Port of Shanghai",
+      "Taiwan Semiconductor Facilities"
+    ],
+    "disruption_types": [
+      "Labor Strike",
+      "AI System Malfunction",
+      "Resource Shortage"
+    ],
+    "root_causes": [
+      "Root cause 0"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0005",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 48.68,
+    "total_cost_impact": 1.235,
+    "duration_days": 33,
+    "duration_category": "long_term",
+    "duration_factor": 1.5,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.8533,
+    "affected_nodes": [
+      "German Automotive Region",
+      "Strait of Hormuz",
+      "Shenzhen Manufacturing Hub",
+      "Port of Shanghai"
+    ],
+    "disruption_types": [
+      "Geopolitical Sanction",
+      "Terrorist Attack",
+      "AI System Malfunction"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0006",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 137.18,
+    "total_cost_impact": 1.33,
+    "duration_days": 93,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
+    "severity_level": "high",
+    "severity_multiplier": 1.5,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.92,
+    "affected_nodes": [
+      "Shenzhen Manufacturing Hub",
+      "Australian Mining Region",
+      "Port of Shanghai",
+      "Panama Canal"
+    ],
+    "disruption_types": [
+      "Financial Collapse",
+      "Geopolitical Sanction",
+      "Resource Shortage"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0007",
+    "lead_time_increase_pct": 0.4375,
+    "cost_increase_pct": 0.3,
+    "capacity_reduction_pct": 0.5125,
+    "reliability_score": 0.59,
+    "recovery_time_days": 168.19,
+    "total_cost_impact": 0.42,
+    "duration_days": 138,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
+    "severity_level": "low",
+    "severity_multiplier": 0.5,
+    "num_affected_nodes": 3,
+    "complexity_score": 0.7067,
+    "affected_nodes": [
+      "Australian Mining Region",
+      "Strait of Hormuz",
+      "Panama Canal"
+    ],
+    "disruption_types": [
+      "AI System Malfunction",
+      "Labor Strike"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1",
+      "Root cause 2"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0008",
+    "lead_time_increase_pct": 0.4375,
+    "cost_increase_pct": 0.3,
+    "capacity_reduction_pct": 0.5125,
+    "reliability_score": 0.59,
+    "recovery_time_days": 168.19,
+    "total_cost_impact": 0.42,
+    "duration_days": 138,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
+    "severity_level": "low",
+    "severity_multiplier": 0.5,
+    "num_affected_nodes": 3,
+    "complexity_score": 0.7733,
+    "affected_nodes": [
+      "German Automotive Region",
+      "Shenzhen Manufacturing Hub",
+      "Strait of Hormuz"
+    ],
+    "disruption_types": [
+      "AI System Malfunction",
+      "Labor Strike",
+      "Satellite Network Failure"
+    ],
+    "root_causes": [
+      "Root cause 0",
+      "Root cause 1"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0009",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 227.15,
+    "total_cost_impact": 1.33,
+    "duration_days": 154,
     "duration_category": "extended",
     "duration_factor": 2.0,
     "severity_level": "high",
@@ -366,219 +1167,13 @@
     "num_affected_nodes": 2,
     "complexity_score": 0.76,
     "affected_nodes": [
-      "Suez Canal",
-      "Port of Shanghai"
-    ],
-    "disruption_types": [
-      "Resource Shortage",
-      "Geopolitical Sanction",
-      "Cyberattack"
-    ],
-    "root_causes": [
-      "Root cause 0",
-      "Root cause 1",
-      "Root cause 2"
-    ]
-  },
-  {
-    "scenario_id": "mock_scenario_0003",
-    "lead_time_increase_pct": 0.8,
-    "cost_increase_pct": 0.675,
-    "capacity_reduction_pct": 0.875,
-    "reliability_score": 0.3,
-    "recovery_time_days": 21.0,
-    "total_cost_impact": 0.81,
-    "duration_days": 15,
-    "duration_category": "medium_term",
-    "duration_factor": 1.0,
-    "severity_level": "medium",
-    "severity_multiplier": 1.0,
-    "num_affected_nodes": 2,
-    "complexity_score": 0.6267,
-    "affected_nodes": [
-      "Australian Mining Region",
-      "Panama Canal"
-    ],
-    "disruption_types": [
-      "Pandemic Outbreak",
-      "Terrorist Attack"
-    ],
-    "root_causes": [
-      "Root cause 0",
-      "Root cause 1",
-      "Root cause 2"
-    ]
-  },
-  {
-    "scenario_id": "mock_scenario_0004",
-    "lead_time_increase_pct": 0.8,
-    "cost_increase_pct": 0.9,
-    "capacity_reduction_pct": 0.725,
-    "reliability_score": 0.42,
-    "recovery_time_days": 109.2,
-    "total_cost_impact": 1.17,
-    "duration_days": 78,
-    "duration_category": "long_term",
-    "duration_factor": 1.5,
-    "severity_level": "medium",
-    "severity_multiplier": 1.0,
-    "num_affected_nodes": 3,
-    "complexity_score": 0.7067,
-    "affected_nodes": [
-      "German Automotive Region",
-      "Australian Mining Region",
-      "Port of Shanghai"
-    ],
-    "disruption_types": [
-      "Financial Collapse",
-      "Resource Shortage"
-    ],
-    "root_causes": [
-      "Root cause 0",
-      "Root cause 1",
-      "Root cause 2"
-    ]
-  },
-  {
-    "scenario_id": "mock_scenario_0005",
-    "lead_time_increase_pct": 0.4,
-    "cost_increase_pct": 0.3375,
-    "capacity_reduction_pct": 0.4375,
-    "reliability_score": 0.65,
-    "recovery_time_days": 144.0,
-    "total_cost_impact": 0.4725,
-    "duration_days": 120,
-    "duration_category": "extended",
-    "duration_factor": 2.0,
-    "severity_level": "low",
-    "severity_multiplier": 0.5,
-    "num_affected_nodes": 2,
-    "complexity_score": 0.6267,
-    "affected_nodes": [
-      "German Automotive Region",
-      "Port of Rotterdam"
-    ],
-    "disruption_types": [
-      "Extreme Weather",
-      "Pandemic Outbreak",
-      "Satellite Network Failure"
-    ],
-    "root_causes": [
-      "Root cause 0"
-    ]
-  },
-  {
-    "scenario_id": "mock_scenario_0006",
-    "lead_time_increase_pct": 0.8625,
-    "cost_increase_pct": 0.95,
-    "capacity_reduction_pct": 0.95,
-    "reliability_score": 0.24,
-    "recovery_time_days": 38.64,
-    "total_cost_impact": 1.14,
-    "duration_days": 27,
-    "duration_category": "medium_term",
-    "duration_factor": 1.0,
-    "severity_level": "high",
-    "severity_multiplier": 1.5,
-    "num_affected_nodes": 2,
-    "complexity_score": 0.6933,
-    "affected_nodes": [
-      "Shenzhen Manufacturing Hub",
+      "Port of Los Angeles",
       "Taiwan Semiconductor Facilities"
     ],
     "disruption_types": [
-      "Geopolitical Sanction",
-      "Extreme Weather",
-      "Terrorist Attack"
-    ],
-    "root_causes": [
-      "Root cause 0",
-      "Root cause 1"
-    ]
-  },
-  {
-    "scenario_id": "mock_scenario_0007",
-    "lead_time_increase_pct": 0.8,
-    "cost_increase_pct": 0.675,
-    "capacity_reduction_pct": 0.875,
-    "reliability_score": 0.3,
-    "recovery_time_days": 71.4,
-    "total_cost_impact": 0.8775,
-    "duration_days": 51,
-    "duration_category": "long_term",
-    "duration_factor": 1.5,
-    "severity_level": "medium",
-    "severity_multiplier": 1.0,
-    "num_affected_nodes": 4,
-    "complexity_score": 0.7867,
-    "affected_nodes": [
-      "Port of Shanghai",
-      "Port of Los Angeles",
-      "Shenzhen Manufacturing Hub",
-      "Australian Mining Region"
-    ],
-    "disruption_types": [
-      "Extreme Weather",
-      "Pandemic Outbreak",
-      "Satellite Network Failure"
-    ],
-    "root_causes": [
-      "Root cause 0"
-    ]
-  },
-  {
-    "scenario_id": "mock_scenario_0008",
-    "lead_time_increase_pct": 0.95,
-    "cost_increase_pct": 0.95,
-    "capacity_reduction_pct": 0.95,
-    "reliability_score": 0.24,
-    "recovery_time_days": 172.58,
-    "total_cost_impact": 1.33,
-    "duration_days": 117,
-    "duration_category": "extended",
-    "duration_factor": 2.0,
-    "severity_level": "high",
-    "severity_multiplier": 1.5,
-    "num_affected_nodes": 4,
-    "complexity_score": 0.6533,
-    "affected_nodes": [
-      "Port of Rotterdam",
-      "Port of Los Angeles",
-      "Taiwan Semiconductor Facilities",
-      "Shenzhen Manufacturing Hub"
-    ],
-    "disruption_types": [
-      "Terrorist Attack",
-      "Resource Shortage"
-    ],
-    "root_causes": [
-      "Root cause 0"
-    ]
-  },
-  {
-    "scenario_id": "mock_scenario_0009",
-    "lead_time_increase_pct": 0.3625,
-    "cost_increase_pct": 0.225,
-    "capacity_reduction_pct": 0.4,
-    "reliability_score": 0.68,
-    "recovery_time_days": 179.55,
-    "total_cost_impact": 0.315,
-    "duration_days": 152,
-    "duration_category": "extended",
-    "duration_factor": 2.0,
-    "severity_level": "low",
-    "severity_multiplier": 0.5,
-    "num_affected_nodes": 3,
-    "complexity_score": 0.84,
-    "affected_nodes": [
-      "Panama Canal",
-      "Port of Shanghai",
-      "Port of Rotterdam"
-    ],
-    "disruption_types": [
-      "Cyberattack",
-      "Extreme Weather",
-      "Terrorist Attack"
+      "Infrastructure Failure",
+      "AI System Malfunction",
+      "Geopolitical Sanction"
     ],
     "root_causes": [
       "Root cause 0",
@@ -588,56 +1183,55 @@
   },
   {
     "scenario_id": "mock_scenario_0000",
-    "lead_time_increase_pct": 0.4,
-    "cost_increase_pct": 0.3,
-    "capacity_reduction_pct": 0.4,
-    "reliability_score": 0.68,
-    "recovery_time_days": 104.4,
-    "total_cost_impact": 0.39,
-    "duration_days": 87,
-    "duration_category": "long_term",
-    "duration_factor": 1.5,
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 249.28,
+    "total_cost_impact": 1.33,
+    "duration_days": 169,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
     "severity_level": "extreme",
     "severity_multiplier": 2.0,
-    "num_affected_nodes": 2,
-    "complexity_score": 0.6267,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.6533,
     "affected_nodes": [
-      "Port of Los Angeles",
+      "Taiwan Semiconductor Facilities",
+      "Australian Mining Region",
+      "Panama Canal",
       "Port of Shanghai"
     ],
     "disruption_types": [
-      "Extreme Weather",
+      "Geopolitical Sanction",
       "Financial Collapse"
     ],
     "root_causes": [
-      "Root cause 0",
-      "Root cause 1",
-      "Root cause 2"
+      "Root cause 0"
     ]
   },
   {
     "scenario_id": "mock_scenario_0001",
-    "lead_time_increase_pct": 0.7625,
-    "cost_increase_pct": 0.8125,
-    "capacity_reduction_pct": 0.7875,
-    "reliability_score": 0.37,
-    "recovery_time_days": 60.78,
-    "total_cost_impact": 1.0563,
-    "duration_days": 44,
+    "lead_time_increase_pct": 0.875,
+    "cost_increase_pct": 0.675,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 110.69,
+    "total_cost_impact": 0.8775,
+    "duration_days": 77,
     "duration_category": "long_term",
     "duration_factor": 1.5,
-    "severity_level": "low",
-    "severity_multiplier": 0.5,
+    "severity_level": "medium",
+    "severity_multiplier": 1.0,
     "num_affected_nodes": 2,
-    "complexity_score": 0.6267,
+    "complexity_score": 0.4933,
     "affected_nodes": [
-      "Taiwan Semiconductor Facilities",
-      "Port of Los Angeles"
+      "Shenzhen Manufacturing Hub",
+      "Suez Canal"
     ],
     "disruption_types": [
-      "Resource Shortage",
-      "Geopolitical Sanction",
-      "Cyberattack"
+      "Terrorist Attack",
+      "Infrastructure Failure"
     ],
     "root_causes": [
       "Root cause 0"
@@ -645,92 +1239,92 @@
   },
   {
     "scenario_id": "mock_scenario_0002",
-    "lead_time_increase_pct": 0.95,
-    "cost_increase_pct": 0.95,
-    "capacity_reduction_pct": 0.95,
-    "reliability_score": 0.24,
-    "recovery_time_days": 210.93,
-    "total_cost_impact": 1.33,
-    "duration_days": 143,
-    "duration_category": "extended",
-    "duration_factor": 2.0,
-    "severity_level": "high",
-    "severity_multiplier": 1.5,
-    "num_affected_nodes": 2,
-    "complexity_score": 0.6267,
+    "lead_time_increase_pct": 0.4375,
+    "cost_increase_pct": 0.3375,
+    "capacity_reduction_pct": 0.5125,
+    "reliability_score": 0.59,
+    "recovery_time_days": 12.19,
+    "total_cost_impact": 0.405,
+    "duration_days": 10,
+    "duration_category": "medium_term",
+    "duration_factor": 1.0,
+    "severity_level": "low",
+    "severity_multiplier": 0.5,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.72,
     "affected_nodes": [
+      "Strait of Hormuz",
+      "Suez Canal",
       "German Automotive Region",
-      "Port of Los Angeles"
+      "Shenzhen Manufacturing Hub"
     ],
     "disruption_types": [
-      "Labor Strike",
-      "Resource Shortage"
+      "Financial Collapse",
+      "Infrastructure Failure"
     ],
     "root_causes": [
       "Root cause 0",
-      "Root cause 1",
-      "Root cause 2"
+      "Root cause 1"
     ]
   },
   {
     "scenario_id": "mock_scenario_0003",
     "lead_time_increase_pct": 0.95,
-    "cost_increase_pct": 0.9,
+    "cost_increase_pct": 0.95,
     "capacity_reduction_pct": 0.95,
     "reliability_score": 0.24,
-    "recovery_time_days": 78.18,
-    "total_cost_impact": 1.17,
-    "duration_days": 53,
-    "duration_category": "long_term",
-    "duration_factor": 1.5,
-    "severity_level": "high",
-    "severity_multiplier": 1.5,
+    "recovery_time_days": 25.08,
+    "total_cost_impact": 1.14,
+    "duration_days": 17,
+    "duration_category": "medium_term",
+    "duration_factor": 1.0,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
     "num_affected_nodes": 4,
-    "complexity_score": 0.7867,
+    "complexity_score": 0.6533,
     "affected_nodes": [
       "Australian Mining Region",
-      "Panama Canal",
-      "Taiwan Semiconductor Facilities",
-      "Port of Rotterdam"
+      "German Automotive Region",
+      "Port of Shanghai",
+      "Panama Canal"
+    ],
+    "disruption_types": [
+      "Infrastructure Failure",
+      "Cyberattack"
+    ],
+    "root_causes": [
+      "Root cause 0"
+    ]
+  },
+  {
+    "scenario_id": "mock_scenario_0004",
+    "lead_time_increase_pct": 0.95,
+    "cost_increase_pct": 0.95,
+    "capacity_reduction_pct": 0.95,
+    "reliability_score": 0.24,
+    "recovery_time_days": 169.62,
+    "total_cost_impact": 1.33,
+    "duration_days": 115,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
+    "severity_level": "high",
+    "severity_multiplier": 1.5,
+    "num_affected_nodes": 3,
+    "complexity_score": 0.84,
+    "affected_nodes": [
+      "Shenzhen Manufacturing Hub",
+      "Port of Los Angeles",
+      "Australian Mining Region"
     ],
     "disruption_types": [
       "Labor Strike",
-      "AI System Malfunction"
+      "Infrastructure Failure",
+      "Geopolitical Sanction"
     ],
     "root_causes": [
       "Root cause 0",
       "Root cause 1",
       "Root cause 2"
-    ]
-  },
-  {
-    "scenario_id": "mock_scenario_0004",
-    "lead_time_increase_pct": 0.7,
-    "cost_increase_pct": 0.45,
-    "capacity_reduction_pct": 0.8125,
-    "reliability_score": 0.35,
-    "recovery_time_days": 52.65,
-    "total_cost_impact": 0.585,
-    "duration_days": 39,
-    "duration_category": "long_term",
-    "duration_factor": 1.5,
-    "severity_level": "low",
-    "severity_multiplier": 0.5,
-    "num_affected_nodes": 4,
-    "complexity_score": 0.7867,
-    "affected_nodes": [
-      "Strait of Hormuz",
-      "Australian Mining Region",
-      "Shenzhen Manufacturing Hub",
-      "German Automotive Region"
-    ],
-    "disruption_types": [
-      "Cyberattack",
-      "Labor Strike",
-      "Terrorist Attack"
-    ],
-    "root_causes": [
-      "Root cause 0"
     ]
   },
   {
@@ -739,53 +1333,51 @@
     "cost_increase_pct": 0.95,
     "capacity_reduction_pct": 0.95,
     "reliability_score": 0.24,
-    "recovery_time_days": 212.4,
-    "total_cost_impact": 1.33,
-    "duration_days": 144,
-    "duration_category": "extended",
-    "duration_factor": 2.0,
+    "recovery_time_days": 33.93,
+    "total_cost_impact": 1.14,
+    "duration_days": 23,
+    "duration_category": "medium_term",
+    "duration_factor": 1.0,
     "severity_level": "high",
     "severity_multiplier": 1.5,
-    "num_affected_nodes": 3,
-    "complexity_score": 0.7067,
+    "num_affected_nodes": 2,
+    "complexity_score": 0.6933,
     "affected_nodes": [
-      "Strait of Hormuz",
-      "Port of Shanghai",
-      "Port of Rotterdam"
+      "Shenzhen Manufacturing Hub",
+      "Port of Shanghai"
     ],
     "disruption_types": [
+      "Labor Strike",
       "Geopolitical Sanction",
-      "Cyberattack"
+      "Financial Collapse"
     ],
     "root_causes": [
       "Root cause 0",
-      "Root cause 1",
-      "Root cause 2"
+      "Root cause 1"
     ]
   },
   {
     "scenario_id": "mock_scenario_0006",
-    "lead_time_increase_pct": 0.8625,
-    "cost_increase_pct": 0.85,
-    "capacity_reduction_pct": 0.925,
-    "reliability_score": 0.26,
-    "recovery_time_days": 241.88,
-    "total_cost_impact": 1.19,
-    "duration_days": 169,
+    "lead_time_increase_pct": 0.7,
+    "cost_increase_pct": 0.4875,
+    "capacity_reduction_pct": 0.8125,
+    "reliability_score": 0.35,
+    "recovery_time_days": 233.55,
+    "total_cost_impact": 0.6825,
+    "duration_days": 173,
     "duration_category": "extended",
     "duration_factor": 2.0,
     "severity_level": "low",
     "severity_multiplier": 0.5,
     "num_affected_nodes": 2,
-    "complexity_score": 0.6267,
+    "complexity_score": 0.4933,
     "affected_nodes": [
-      "Port of Rotterdam",
-      "German Automotive Region"
+      "Port of Shanghai",
+      "Australian Mining Region"
     ],
     "disruption_types": [
-      "Resource Shortage",
-      "Labor Strike",
-      "Geopolitical Sanction"
+      "Cyberattack",
+      "Infrastructure Failure"
     ],
     "root_causes": [
       "Root cause 0"
@@ -797,22 +1389,24 @@
     "cost_increase_pct": 0.95,
     "capacity_reduction_pct": 0.95,
     "reliability_score": 0.24,
-    "recovery_time_days": 87.03,
+    "recovery_time_days": 88.5,
     "total_cost_impact": 1.235,
-    "duration_days": 59,
+    "duration_days": 60,
     "duration_category": "long_term",
     "duration_factor": 1.5,
-    "severity_level": "extreme",
-    "severity_multiplier": 2.0,
-    "num_affected_nodes": 3,
-    "complexity_score": 0.7067,
+    "severity_level": "high",
+    "severity_multiplier": 1.5,
+    "num_affected_nodes": 4,
+    "complexity_score": 0.92,
     "affected_nodes": [
-      "Port of Los Angeles",
-      "German Automotive Region",
-      "Port of Shanghai"
+      "Port of Shanghai",
+      "Panama Canal",
+      "Taiwan Semiconductor Facilities",
+      "Port of Rotterdam"
     ],
     "disruption_types": [
-      "Geopolitical Sanction",
+      "Pandemic Outbreak",
+      "Labor Strike",
       "AI System Malfunction"
     ],
     "root_causes": [
@@ -823,31 +1417,32 @@
   },
   {
     "scenario_id": "mock_scenario_0008",
-    "lead_time_increase_pct": 0.4,
-    "cost_increase_pct": 0.3,
-    "capacity_reduction_pct": 0.4,
-    "reliability_score": 0.68,
-    "recovery_time_days": 200.4,
-    "total_cost_impact": 0.42,
-    "duration_days": 167,
+    "lead_time_increase_pct": 0.4375,
+    "cost_increase_pct": 0.3375,
+    "capacity_reduction_pct": 0.5125,
+    "reliability_score": 0.59,
+    "recovery_time_days": 180.38,
+    "total_cost_impact": 0.4725,
+    "duration_days": 148,
     "duration_category": "extended",
     "duration_factor": 2.0,
-    "severity_level": "extreme",
-    "severity_multiplier": 2.0,
+    "severity_level": "low",
+    "severity_multiplier": 0.5,
     "num_affected_nodes": 3,
-    "complexity_score": 0.64,
+    "complexity_score": 0.7067,
     "affected_nodes": [
-      "Shenzhen Manufacturing Hub",
-      "Port of Rotterdam",
-      "Suez Canal"
+      "German Automotive Region",
+      "Strait of Hormuz",
+      "Taiwan Semiconductor Facilities"
     ],
     "disruption_types": [
-      "Satellite Network Failure",
-      "AI System Malfunction"
+      "Extreme Weather",
+      "Infrastructure Failure"
     ],
     "root_causes": [
       "Root cause 0",
-      "Root cause 1"
+      "Root cause 1",
+      "Root cause 2"
     ]
   },
   {
@@ -856,27 +1451,28 @@
     "cost_increase_pct": 0.95,
     "capacity_reduction_pct": 0.95,
     "reliability_score": 0.24,
-    "recovery_time_days": 13.28,
-    "total_cost_impact": 1.14,
-    "duration_days": 9,
-    "duration_category": "medium_term",
-    "duration_factor": 1.0,
-    "severity_level": "medium",
-    "severity_multiplier": 1.0,
-    "num_affected_nodes": 3,
-    "complexity_score": 0.64,
+    "recovery_time_days": 197.65,
+    "total_cost_impact": 1.33,
+    "duration_days": 134,
+    "duration_category": "extended",
+    "duration_factor": 2.0,
+    "severity_level": "extreme",
+    "severity_multiplier": 2.0,
+    "num_affected_nodes": 2,
+    "complexity_score": 0.76,
     "affected_nodes": [
-      "Strait of Hormuz",
-      "Port of Shanghai",
-      "Port of Los Angeles"
+      "German Automotive Region",
+      "Taiwan Semiconductor Facilities"
     ],
     "disruption_types": [
-      "Pandemic Outbreak",
-      "Resource Shortage"
+      "Resource Shortage",
+      "Infrastructure Failure",
+      "Financial Collapse"
     ],
     "root_causes": [
       "Root cause 0",
-      "Root cause 1"
+      "Root cause 1",
+      "Root cause 2"
     ]
   }
 ]
